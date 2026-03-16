@@ -1,4 +1,4 @@
-﻿import { BrowserRouter, Link, NavLink, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Link, NavLink, Route, Routes } from "react-router-dom";
 import { BuySignals } from "./components/BuySignals";
 import { Portfolio } from "./components/Portfolio";
 import { SellSignals } from "./components/SellSignals";
@@ -8,7 +8,8 @@ import { StockDetail } from "./pages/StockDetail";
 function DisclaimerBanner() {
   return (
     <div className="bg-amber-50 border-b border-amber-200 px-4 py-2 text-center text-xs text-amber-700">
-      譛ｬ繝・・繝ｫ縺ｯ繧ｹ繧ｯ繝ｪ繝ｼ繝九Φ繧ｰ陬懷勧繝・・繝ｫ縺ｧ縺吶よ兜雉・勧險縺ｧ縺ｯ縺ゅｊ縺ｾ縺帙ｓ縲ゅヱ繧ｿ繝ｼ繝ｳ蜍晉紫縺ｯ邨ｱ險育噪蜿り・､縺ｧ縺ゅｊ蟆・擂縺ｮ邨先棡繧剃ｿ晁ｨｼ縺励∪縺帙ｓ縲よ怙邨ら噪縺ｪ螢ｲ雋ｷ蛻､譁ｭ縺ｯ縺碑・霄ｫ縺ｮ雋ｬ莉ｻ縺ｧ陦後▲縺ｦ縺上□縺輔＞縲・    </div>
+      本ツールはスクリーニング補助ツールです。投資助言ではありません。パターン勝率は統計的参考値であり将来の結果を保証しません。最終的な売買判断はご自身の責任で行ってください。
+    </div>
   );
 }
 
@@ -28,16 +29,16 @@ function NavBar() {
         </Link>
         <nav className="flex items-center gap-1 flex-wrap">
           <NavLink to="/" end className={linkClass}>
-            雋ｷ縺・す繧ｰ繝翫Ν
+            Buy
           </NavLink>
           <NavLink to="/sell" className={linkClass}>
-            螢ｲ繧翫す繧ｰ繝翫Ν
+            Sell
           </NavLink>
           <NavLink to="/history" className={linkClass}>
-            螻･豁ｴ
+            History
           </NavLink>
           <NavLink to="/portfolio" className={linkClass}>
-            繝昴・繝医ヵ繧ｩ繝ｪ繧ｪ
+            Portfolio
           </NavLink>
         </nav>
       </div>
