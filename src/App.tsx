@@ -14,12 +14,16 @@ function DisclaimerBanner() {
 }
 
 function NavBar() {
-  const linkClass = ({ isActive }: { isActive: boolean }) =>
-    `px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
+  const btnClass = ({ isActive }: { isActive: boolean }) =>
+    [
+      "relative inline-flex items-center px-4 py-1.5 text-sm font-medium",
+      "border border-gray-300 -ml-px transition-colors",
+      "first:ml-0 first:rounded-l-md last:rounded-r-md",
+      "focus:z-10 focus:outline-none",
       isActive
-        ? "bg-blue-100 text-blue-700"
-        : "text-gray-600 hover:bg-gray-100 hover:text-gray-900"
-    }`;
+        ? "z-10 bg-blue-500 border-blue-500 text-white"
+        : "bg-white text-gray-700 hover:bg-gray-50",
+    ].join(" ");
 
   return (
     <header className="border-b border-gray-200 bg-white">
@@ -27,17 +31,17 @@ function NavBar() {
         <Link to="/" className="font-bold text-gray-900 text-lg">
           Stock-Analysis
         </Link>
-        <nav className="flex items-center gap-1 flex-wrap">
-          <NavLink to="/" end className={linkClass}>
+        <nav className="inline-flex">
+          <NavLink to="/" end className={btnClass}>
             Buy
           </NavLink>
-          <NavLink to="/sell" className={linkClass}>
+          <NavLink to="/sell" className={btnClass}>
             Sell
           </NavLink>
-          <NavLink to="/history" className={linkClass}>
+          <NavLink to="/history" className={btnClass}>
             History
           </NavLink>
-          <NavLink to="/portfolio" className={linkClass}>
+          <NavLink to="/portfolio" className={btnClass}>
             Portfolio
           </NavLink>
         </nav>
