@@ -23,9 +23,14 @@ const CONFIDENCE_COLOR: Record<string, string> = {
   low: "bg-gray-100 text-gray-600",
 };
 
+function daysAgo(dateStr: string): number {
+  return Math.floor((Date.now() - new Date(dateStr).getTime()) / 86_400_000);
+}
+
 export function SignalCard({ signal, showPnL, buyPrice, quantity, showChart }: SignalCardProps) {
   const meta = PATTERN_META[signal.pattern];
   const isBuy = signal.direction === "buy";
+  const ago = daysAgo(signal.pattern_detail.end_date);
   const directionColor = isBuy ? "border-l-green-500" : "border-l-red-500";
   const directionBadge = isBuy
     ? "bg-green-100 text-green-700"
@@ -99,12 +104,23 @@ export function SignalCard({ signal, showPnL, buyPrice, quantity, showChart }: S
 
       <p className="mt-2 text-xs text-gray-500">{meta?.description ?? ""}</p>
 
-      <div className="mt-2 flex items-center gap-3 text-xs text-gray-400">
+      <div className="mt-2 flex items-center gap-3 text-xs text-gray-400 flex-wrap">
         <span>
           シグナル価格: ¥{signal.signal_price.toLocaleString()}
         </span>
         <span>
           検出期間: {signal.pattern_detail.start_date} 〜 {signal.pattern_detail.end_date}
+        </span>
+        <span
+          className={`inline-flex items-center rounded-full px-2 py-0.5 font-medium ${
+            ago === 0
+              ? "bg-blue-100 text-blue-700"
+              : ago <= 3
+              ? "bg-green-100 text-green-700"
+              : "bg-gray-100 text-gray-500"
+          }`}
+        >
+          {ago === 0 ? "本日" : `${ago}日前`}
         </span>
       </div>
 

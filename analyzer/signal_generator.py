@@ -8,7 +8,7 @@ from __future__ import annotations
 import dataclasses
 import json
 import logging
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import pandas as pd
@@ -35,6 +35,10 @@ logger = logging.getLogger(__name__)
 
 JST = timezone(timedelta(hours=9))
 
+# Only show signals whose breakout occurred within this many calendar days.
+# ~10 trading days — keeps only "currently forming" signals, not stale history.
+MAX_SIGNAL_AGE_DAYS = 14
+
 # All detectors in priority order (higher win_rate first)
 DETECTORS = [
     inverse_head_shoulders,  # 95%
@@ -52,6 +56,11 @@ DETECTORS = [
     descending_triangle,      # 75%
     falling_wedge,            # 72%
 ]
+
+
+def _parse_date(date_str: str) -> date:
+    """Parse YYYY-MM-DD string to date object."""
+    return date.fromisoformat(date_str)
 
 
 def _deduplicate(signals: list[Signal]) -> list[Signal]:
@@ -120,8 +129,14 @@ class SignalGenerator:
         buy_signals = _deduplicate(all_buy)
         sell_signals = _deduplicate(all_sell)
 
+        # Keep only fresh signals (breakout within MAX_SIGNAL_AGE_DAYS calendar days)
+        cutoff = (datetime.now(JST) - timedelta(days=MAX_SIGNAL_AGE_DAYS)).date()
+        buy_signals = [s for s in buy_signals if _parse_date(s.pattern_detail.end_date) >= cutoff]
+        sell_signals = [s for s in sell_signals if _parse_date(s.pattern_detail.end_date) >= cutoff]
+
         logger.info(
-            f"Detection complete: {len(buy_signals)} buy, {len(sell_signals)} sell signals"
+            f"Detection complete: {len(buy_signals)} buy, {len(sell_signals)} sell signals "
+            f"(within {MAX_SIGNAL_AGE_DAYS} days)"
         )
         return buy_signals, sell_signals
 
