@@ -131,6 +131,7 @@ class SignalGenerator:
         sell_signals: list[Signal],
         market_date: str,
         total_analyzed: int = 225,
+        backtest: dict | None = None,  # type: ignore[type-arg]
     ) -> None:
         """Write latest.json and signals/{date}.json."""
         now = datetime.now(JST)
@@ -141,6 +142,8 @@ class SignalGenerator:
             "buy_signals": [_signal_to_dict(s) for s in buy_signals],
             "sell_signals": [_signal_to_dict(s) for s in sell_signals],
         }
+        if backtest is not None:
+            payload["backtest"] = backtest
 
         latest_path = self.output_dir / "latest.json"
         with open(latest_path, "w", encoding="utf-8") as f:

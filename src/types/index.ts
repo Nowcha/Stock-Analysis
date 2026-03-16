@@ -43,12 +43,27 @@ export interface Signal {
   confidence: Confidence;
 }
 
+export interface BacktestPatternStat {
+  count: number;
+  wins: number;
+  win_rate: number;
+  avg_return: number;
+}
+
+export interface BacktestResult {
+  per_pattern: Partial<Record<PatternType, BacktestPatternStat>>;
+  overall_win_rate: number | null;
+  total_verified: number;
+  hold_days: number;
+}
+
 export interface SignalData {
   analyzed_at: string;
   market_date: string;
   total_analyzed: number;
   buy_signals: Signal[];
   sell_signals: Signal[];
+  backtest?: BacktestResult;
 }
 
 export interface PortfolioEntry {

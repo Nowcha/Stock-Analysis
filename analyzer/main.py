@@ -14,6 +14,7 @@ from pathlib import Path
 # Ensure working directory is always the repository root
 os.chdir(Path(__file__).parent.parent)
 
+from .backtest import run_backtest
 from .cache_manager import CacheManager
 from .fetcher import fetch_all_tickers
 from .nikkei225 import NIKKEI225, get_all_tickers
@@ -47,9 +48,16 @@ def main() -> None:
         logger.error("No data available — skipping analysis")
         sys.exit(1)
 
-    # Step 3: Run pattern detection and write JSON
+    # Step 3: Run pattern detection
     generator = SignalGenerator(output_dir)
     buy_sigs, sell_sigs = generator.run_all(data, NIKKEI225)
+
+    # Step 3b: Backtest past signals against OHLCV cache
+    backtest_result = run_backtest(output_dir / "signals", cache_dir)
+    logger.info(
+        f"Backtest: {backtest_result['total_verified']} signals verified, "
+        f"overall win rate: {backtest_result['overall_win_rate']}%"
+    )
 
     market_date = str(date.today())
     generator.write_json(
@@ -57,6 +65,7 @@ def main() -> None:
         sell_sigs,
         market_date=market_date,
         total_analyzed=len(data),
+        backtest=backtest_result,
     )
 
     # Step 4: Cleanup old signal files
