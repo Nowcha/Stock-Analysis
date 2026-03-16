@@ -1,11 +1,14 @@
+import { Link } from "react-router-dom";
 import type { Signal } from "../types";
 import { PATTERN_META } from "../data/pattern-meta";
+import { PatternChart } from "./PatternChart";
 
 interface SignalCardProps {
   signal: Signal;
   showPnL?: boolean;
   buyPrice?: number;
   quantity?: number;
+  showChart?: boolean;
 }
 
 const CONFIDENCE_LABEL: Record<string, string> = {
@@ -20,7 +23,7 @@ const CONFIDENCE_COLOR: Record<string, string> = {
   low: "bg-gray-100 text-gray-600",
 };
 
-export function SignalCard({ signal, showPnL, buyPrice, quantity }: SignalCardProps) {
+export function SignalCard({ signal, showPnL, buyPrice, quantity, showChart }: SignalCardProps) {
   const meta = PATTERN_META[signal.pattern];
   const isBuy = signal.direction === "buy";
   const directionColor = isBuy ? "border-l-green-500" : "border-l-red-500";
@@ -46,7 +49,12 @@ export function SignalCard({ signal, showPnL, buyPrice, quantity }: SignalCardPr
         <div className="min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
             <span className="text-xs text-gray-500">{signal.ticker}</span>
-            <h3 className="font-semibold text-gray-900 truncate">{signal.name}</h3>
+            <Link
+              to={`/stock/${encodeURIComponent(signal.ticker)}`}
+              className="font-semibold text-gray-900 hover:text-blue-700 hover:underline truncate"
+            >
+              {signal.name}
+            </Link>
           </div>
           <div className="mt-1 flex items-center gap-2 flex-wrap">
             <span
@@ -99,6 +107,17 @@ export function SignalCard({ signal, showPnL, buyPrice, quantity }: SignalCardPr
           検出期間: {signal.pattern_detail.start_date} 〜 {signal.pattern_detail.end_date}
         </span>
       </div>
+
+      {showChart && signal.pattern_detail.key_points.length >= 2 && (
+        <div className="mt-3 overflow-x-auto">
+          <PatternChart
+            keyPoints={signal.pattern_detail.key_points}
+            direction={signal.direction}
+            width={288}
+            height={110}
+          />
+        </div>
+      )}
     </div>
   );
 }

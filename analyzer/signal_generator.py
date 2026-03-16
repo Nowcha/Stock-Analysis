@@ -14,11 +14,16 @@ from pathlib import Path
 import pandas as pd
 
 from .patterns import (
+    ascending_pennant,
+    cup_with_handle,
+    descending_triangle,
     double_bottom,
     double_top,
+    falling_wedge,
     head_shoulders,
     inverse_head_shoulders,
     inverse_v,
+    rising_wedge,
     spike_bottom,
     spike_top,
     triple_bottom,
@@ -34,13 +39,18 @@ JST = timezone(timedelta(hours=9))
 DETECTORS = [
     inverse_head_shoulders,  # 95%
     head_shoulders,           # 95%
-    spike_bottom,             # 91%
     double_top,               # 93%
+    spike_bottom,             # 91%
     spike_top,                # 90%
     double_bottom,            # 89%
+    ascending_pennant,        # 86%
+    cup_with_handle,          # 84%
     triple_top,               # 84%
     triple_bottom,            # 82%
     inverse_v,                # 81%
+    rising_wedge,             # 77%
+    descending_triangle,      # 75%
+    falling_wedge,            # 72%
 ]
 
 
@@ -141,3 +151,16 @@ class SignalGenerator:
         with open(dated_path, "w", encoding="utf-8") as f:
             json.dump(payload, f, ensure_ascii=False, indent=2)
         logger.info(f"Written: {dated_path}")
+
+        self._write_history_index()
+
+    def _write_history_index(self) -> None:
+        """Write history_index.json listing all available signal dates in descending order."""
+        dates = sorted(
+            [p.stem for p in self.signals_dir.glob("*.json") if p.stem != "latest"],
+            reverse=True,
+        )
+        index_path = self.output_dir / "history_index.json"
+        with open(index_path, "w", encoding="utf-8") as f:
+            json.dump({"dates": dates}, f, ensure_ascii=False)
+        logger.info(f"Written: {index_path}")

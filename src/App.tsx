@@ -2,6 +2,8 @@ import { BrowserRouter, Link, NavLink, Route, Routes } from "react-router-dom";
 import { BuySignals } from "./components/BuySignals";
 import { Portfolio } from "./components/Portfolio";
 import { SellSignals } from "./components/SellSignals";
+import { HistoryPage } from "./pages/HistoryPage";
+import { StockDetail } from "./pages/StockDetail";
 
 function DisclaimerBanner() {
   return (
@@ -25,12 +27,15 @@ function NavBar() {
         <Link to="/" className="font-bold text-gray-900 text-lg">
           KabuPattern
         </Link>
-        <nav className="flex items-center gap-1">
+        <nav className="flex items-center gap-1 flex-wrap">
           <NavLink to="/" end className={linkClass}>
             買いシグナル
           </NavLink>
           <NavLink to="/sell" className={linkClass}>
             売りシグナル
+          </NavLink>
+          <NavLink to="/history" className={linkClass}>
+            履歴
           </NavLink>
           <NavLink to="/portfolio" className={linkClass}>
             ポートフォリオ
@@ -50,7 +55,9 @@ function AppLayout() {
         <Routes>
           <Route path="/" element={<BuySignals />} />
           <Route path="/sell" element={<SellSignals />} />
+          <Route path="/history" element={<HistoryPage />} />
           <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/stock/:ticker" element={<StockDetail />} />
         </Routes>
       </main>
     </div>
