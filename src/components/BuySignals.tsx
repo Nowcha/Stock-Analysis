@@ -1,13 +1,24 @@
+import { useMemo } from "react";
 import { useSignalFilter } from "../hooks/useSignalFilter";
 import { useSignals } from "../hooks/useSignals";
 import { BacktestSummary } from "./BacktestSummary";
 import { SignalCard } from "./SignalCard";
 import { SignalFilter } from "./SignalFilter";
 
+function daysAgo(dateStr: string): number {
+  return Math.floor((Date.now() - new Date(dateStr).getTime()) / 86_400_000);
+}
+
 export function BuySignals() {
   const { data, loading, error, refetch } = useSignals();
+
+  const recentSignals = useMemo(
+    () => (data?.buy_signals ?? []).filter((s) => daysAgo(s.pattern_detail.end_date) <= 7),
+    [data?.buy_signals]
+  );
+
   const { filter, filtered, setMinWinRate, toggleConfidence, setSortBy } =
-    useSignalFilter(data?.buy_signals ?? []);
+    useSignalFilter(recentSignals);
 
   if (loading) {
     return (
@@ -40,7 +51,7 @@ export function BuySignals() {
         <div>
           <h2 className="text-lg font-bold text-gray-900">買いシグナル</h2>
           <p className="text-sm text-gray-500">
-            分析日: {data.market_date}　{data.buy_signals.length} 件検出（{data.total_analyzed} 銘柄中）
+            分析日: {data.market_date}　直近7日 {recentSignals.length} 件（{data.total_analyzed} 銘柄中）
           </p>
         </div>
       </div>
@@ -51,7 +62,7 @@ export function BuySignals() {
 
       <SignalFilter
         filter={filter}
-        totalCount={data.buy_signals.length}
+        totalCount={recentSignals.length}
         filteredCount={filtered.length}
         onMinWinRateChange={setMinWinRate}
         onConfidenceToggle={toggleConfidence}
@@ -60,13 +71,13 @@ export function BuySignals() {
 
       {filtered.length === 0 ? (
         <div className="rounded-lg border border-gray-200 bg-gray-50 p-8 text-center">
-          <p className="text-gray-500">条件に一致する買いシグナルはありません</p>
+          <p className="text-gray-500">直近7日以内の買いシグナルはありません</p>
         </div>
       ) : (
         <div className="space-y-3">
           {filtered.map((signal) => (
             <SignalCard
-              key={`${signal.ticker}-${signal.pattern}`}
+              key={signal.ticker + "-" + signal.pattern}
               signal={signal}
             />
           ))}

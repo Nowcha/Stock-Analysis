@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import { usePortfolio } from "../hooks/usePortfolio";
 import { useSignalFilter } from "../hooks/useSignalFilter";
 import { useSignals } from "../hooks/useSignals";
@@ -5,11 +6,22 @@ import { BacktestSummary } from "./BacktestSummary";
 import { SignalCard } from "./SignalCard";
 import { SignalFilter } from "./SignalFilter";
 
+function daysAgo(dateStr: string): number {
+  return Math.floor((Date.now() - new Date(dateStr).getTime()) / 86_400_000);
+}
+
 export function SellSignals() {
   const { data, loading, error, refetch } = useSignals();
   const { isHolding, getEntry, portfolio } = usePortfolio();
 
-  const holdingSignals = data?.sell_signals.filter((sig) => isHolding(sig.ticker)) ?? [];
+  const holdingSignals = useMemo(
+    () =>
+      (data?.sell_signals ?? [])
+        .filter((sig) => isHolding(sig.ticker))
+        .filter((sig) => daysAgo(sig.pattern_detail.end_date) <= 7),
+    [data?.sell_signals, isHolding]
+  );
+
   const { filter, filtered, setMinWinRate, toggleConfidence, setSortBy } =
     useSignalFilter(holdingSignals);
 
@@ -62,7 +74,7 @@ export function SellSignals() {
         <div>
           <h2 className="text-lg font-bold text-gray-900">売りシグナル</h2>
           <p className="text-sm text-gray-500">
-            分析日: {data.market_date}　保有銘柄 {portfolio.length} 件中 {holdingSignals.length} 件にシグナル
+            分析日: {data.market_date}　保有銘柄 {portfolio.length} 件中 {holdingSignals.length} 件にシグナル（直近7日）
           </p>
         </div>
       </div>
@@ -82,7 +94,7 @@ export function SellSignals() {
 
       {filtered.length === 0 ? (
         <div className="rounded-lg border border-gray-200 bg-gray-50 p-8 text-center">
-          <p className="text-gray-500">条件に一致する売りシグナルはありません</p>
+          <p className="text-gray-500">直近7日以内の売りシグナルはありません</p>
         </div>
       ) : (
         <div className="space-y-3">
@@ -90,7 +102,7 @@ export function SellSignals() {
             const entry = getEntry(signal.ticker);
             return (
               <SignalCard
-                key={`${signal.ticker}-${signal.pattern}`}
+                key={signal.ticker + "-" + signal.pattern}
                 signal={signal}
                 showPnL
                 buyPrice={entry?.buy_price}
