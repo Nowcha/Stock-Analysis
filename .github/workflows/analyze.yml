@@ -1,0 +1,41 @@
+name: Daily Stock Pattern Analysis
+
+on:
+  schedule:
+    # 東証閉場（15:00 JST）後、16:30 JST に実行
+    # UTC 07:30 = JST 16:30
+    - cron: '30 7 * * 1-5'  # 月〜金のみ
+  workflow_dispatch:  # 手動実行も可能
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r analyzer/requirements.txt
+
+      - name: Run analysis
+        run: python -m analyzer.main
+
+      - name: Commit and push results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/cache/ public/data/
+          git add -u data/cache/ public/data/
+          git diff --staged --quiet || git commit -m "chore: daily analysis $(date +%Y-%m-%d)"
+          git push
