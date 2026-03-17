@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useSignals } from "../hooks/useSignals";
 import { PatternChart } from "../components/PatternChart";
+import { PriceChart } from "../components/PriceChart";
 import { PATTERN_META } from "../data/pattern-meta";
 import type { Signal } from "../types";
 
@@ -51,7 +52,36 @@ function SignalDetail({ signal }: { signal: Signal }) {
         <div className="text-gray-700">{signal.pattern_detail.start_date} 〜 {signal.pattern_detail.end_date}</div>
       </div>
 
-      {signal.pattern_detail.key_points.length >= 2 && (
+      {/* Daily price chart — shown when ohlcv data is available */}
+      {signal.ohlcv && signal.ohlcv.length >= 2 ? (
+        <div className="rounded-lg bg-gray-50 p-3">
+          <div className="flex items-center justify-between mb-2">
+            <p className="text-xs text-gray-400">日足チャート（直近90営業日）</p>
+            <p className="text-xs text-gray-400">
+              シグナル期間:
+              <span className="font-medium text-gray-600 ml-1">
+                {signal.pattern_detail.start_date} 〜 {signal.pattern_detail.end_date}
+              </span>
+            </p>
+          </div>
+          <PriceChart
+            ohlcv={signal.ohlcv}
+            keyPoints={signal.pattern_detail.key_points}
+            patternStart={signal.pattern_detail.start_date}
+            patternEnd={signal.pattern_detail.end_date}
+            direction={signal.direction}
+            height={220}
+          />
+          <div className="mt-2 flex flex-wrap gap-2">
+            {signal.pattern_detail.key_points.map((kp, i) => (
+              <div key={i} className="text-xs text-gray-500">
+                <span className="font-medium">{kp.label.replace(/_/g, " ")}</span>
+                {" "}¥{kp.price.toLocaleString()} ({kp.date.slice(5)})
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : signal.pattern_detail.key_points.length >= 2 ? (
         <div className="rounded-lg bg-gray-50 p-3">
           <p className="text-xs text-gray-400 mb-2">パターンチャート</p>
           <PatternChart
@@ -69,7 +99,7 @@ function SignalDetail({ signal }: { signal: Signal }) {
             ))}
           </div>
         </div>
-      )}
+      ) : null}
     </div>
   );
 }

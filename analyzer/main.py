@@ -66,6 +66,7 @@ def main() -> None:
         market_date=market_date,
         total_analyzed=len(data),
         backtest=backtest_result,
+        ohlcv_data=data,
     )
 
     # Step 4: Cleanup old signal files

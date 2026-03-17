@@ -30,6 +30,11 @@ export interface PatternDetail {
   key_points: KeyPoint[];
 }
 
+export interface OhlcvPoint {
+  date: string;
+  close: number;
+}
+
 export interface Signal {
   ticker: string;
   name: string;
@@ -41,6 +46,7 @@ export interface Signal {
   signal_price: number;
   pattern_detail: PatternDetail;
   confidence: Confidence;
+  ohlcv?: OhlcvPoint[];
 }
 
 export interface BacktestPatternStat {

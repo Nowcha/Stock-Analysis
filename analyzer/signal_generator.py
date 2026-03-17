@@ -81,6 +81,15 @@ def _signal_to_dict(signal: Signal) -> dict:  # type: ignore[type-arg]
     return d
 
 
+def _get_ohlcv_tail(df: pd.DataFrame, n_days: int = 90) -> list[dict]:  # type: ignore[type-arg]
+    """Extract last n_days trading days of close prices for chart display."""
+    tail = df.tail(n_days)
+    return [
+        {"date": str(row["Date"].date()), "close": round(float(row["Close"]), 1)}
+        for _, row in tail.iterrows()
+    ]
+
+
 class SignalGenerator:
     def __init__(self, output_dir: Path) -> None:
         self.output_dir = output_dir
@@ -147,15 +156,23 @@ class SignalGenerator:
         market_date: str,
         total_analyzed: int = 225,
         backtest: dict | None = None,  # type: ignore[type-arg]
+        ohlcv_data: dict[str, pd.DataFrame] | None = None,
     ) -> None:
         """Write latest.json and signals/{date}.json."""
+
+        def signal_dict(s: Signal) -> dict:  # type: ignore[type-arg]
+            d = _signal_to_dict(s)
+            if ohlcv_data and s.ticker in ohlcv_data:
+                d["ohlcv"] = _get_ohlcv_tail(ohlcv_data[s.ticker])
+            return d
+
         now = datetime.now(JST)
         payload: dict = {  # type: ignore[type-arg]
             "analyzed_at": now.isoformat(),
             "market_date": market_date,
             "total_analyzed": total_analyzed,
-            "buy_signals": [_signal_to_dict(s) for s in buy_signals],
-            "sell_signals": [_signal_to_dict(s) for s in sell_signals],
+            "buy_signals": [signal_dict(s) for s in buy_signals],
+            "sell_signals": [signal_dict(s) for s in sell_signals],
         }
         if backtest is not None:
             payload["backtest"] = backtest
