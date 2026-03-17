@@ -16,19 +16,19 @@ function DisclaimerBanner() {
 function NavBar() {
   const btnClass = ({ isActive }: { isActive: boolean }) =>
     [
-      "relative inline-flex items-center px-4 py-1.5 text-sm font-medium",
-      "border border-gray-300 -ml-px transition-colors",
-      "first:ml-0 first:rounded-l-md last:rounded-r-md",
-      "focus:z-10 focus:outline-none",
+      "relative inline-flex items-center justify-center min-h-[44px] px-4 text-sm",
+      "border border-gray-200 -ml-px transition-colors",
+      "first:ml-0 first:rounded-l-lg last:rounded-r-lg",
+      "focus-visible:z-10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-1",
       isActive
-        ? "z-10 bg-blue-500 border-blue-500 text-white"
-        : "bg-white text-gray-700 hover:bg-gray-50",
+        ? "z-10 bg-blue-500 border-blue-500 text-white font-semibold"
+        : "bg-white text-gray-700 font-medium hover:bg-gray-50",
     ].join(" ");
 
   return (
     <header className="border-b border-gray-200 bg-white">
       <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-3">
-        <Link to="/" className="font-bold text-gray-900 text-lg">
+        <Link to="/" className="font-bold text-gray-900 text-base tracking-tight hover:text-blue-700 transition-colors">
           Stock-Analysis
         </Link>
         <nav className="inline-flex">
@@ -52,7 +52,7 @@ function NavBar() {
 
 function AppLayout() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen" style={{ background: "var(--bg-base)" }}>
       <DisclaimerBanner />
       <NavBar />
       <main className="mx-auto max-w-4xl px-4 py-6">

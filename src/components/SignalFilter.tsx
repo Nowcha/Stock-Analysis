@@ -32,12 +32,12 @@ export function SignalFilter({
   onSortChange,
 }: Props) {
   return (
-    <div className="bg-white border border-gray-200 rounded-lg p-3 mb-4 space-y-3">
-      <div className="flex flex-wrap gap-4 items-end">
+    <div className="bg-white border border-gray-200 rounded-xl p-4 mb-4">
+      <div className="flex flex-wrap gap-5 items-end">
         {/* Win rate slider */}
-        <div className="flex-1 min-w-40">
-          <label className="block text-xs text-gray-500 mb-1">
-            勝率下限：{filter.minWinRate}%以上
+        <div className="flex-1 min-w-44">
+          <label className="block text-sm font-medium text-gray-700 mb-2">
+            勝率下限：<span className="text-blue-600 font-semibold">{filter.minWinRate}%</span>以上
           </label>
           <input
             type="range"
@@ -48,25 +48,28 @@ export function SignalFilter({
             onChange={(e) => onMinWinRateChange(Number(e.target.value))}
             className="w-full accent-blue-600"
           />
-          <div className="flex justify-between text-xs text-gray-400">
+          <div className="flex justify-between text-xs text-gray-400 mt-1">
             <span>75%</span>
             <span>95%</span>
           </div>
         </div>
 
-        {/* Confidence checkboxes */}
+        {/* Confidence checkboxes — 44px touch targets */}
         <div>
-          <p className="text-xs text-gray-500 mb-1">信度</p>
-          <div className="flex gap-2">
+          <p className="text-sm font-medium text-gray-700 mb-1">確信度</p>
+          <div className="flex gap-1">
             {(["high", "medium", "low"] as Confidence[]).map((c) => (
-              <label key={c} className="flex items-center gap-1 cursor-pointer">
+              <label
+                key={c}
+                className="inline-flex items-center gap-1.5 min-h-[44px] px-3 cursor-pointer rounded-lg border border-gray-200 hover:bg-gray-50 transition-colors select-none"
+              >
                 <input
                   type="checkbox"
                   checked={filter.confidences.has(c)}
                   onChange={() => onConfidenceToggle(c)}
                   className="accent-blue-600"
                 />
-                <span className="text-sm">{CONFIDENCE_LABELS[c]}</span>
+                <span className="text-sm font-medium text-gray-700">{CONFIDENCE_LABELS[c]}</span>
               </label>
             ))}
           </div>
@@ -74,11 +77,11 @@ export function SignalFilter({
 
         {/* Sort select */}
         <div>
-          <label className="block text-xs text-gray-500 mb-1">並び替え</label>
+          <label className="block text-sm font-medium text-gray-700 mb-1">並び替え</label>
           <select
             value={filter.sortBy}
             onChange={(e) => onSortChange(e.target.value as SortKey)}
-            className="text-sm border border-gray-300 rounded px-2 py-1"
+            className="min-h-[44px] text-sm border border-gray-200 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white"
           >
             {SORT_OPTIONS.map((o) => (
               <option key={o.value} value={o.value}>
@@ -90,10 +93,10 @@ export function SignalFilter({
       </div>
 
       {/* Result count */}
-      <p className="text-xs text-gray-500">
-        {filteredCount} 件表示
+      <p className="text-xs text-gray-400 mt-3 pt-3 border-t border-gray-100">
+        <span className="font-semibold text-gray-700">{filteredCount}</span> 件表示
         {filteredCount < totalCount && (
-          <span className="text-gray-400">（全 {totalCount} 件中）</span>
+          <span>（全 {totalCount} 件中）</span>
         )}
       </p>
     </div>

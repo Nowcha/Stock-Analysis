@@ -140,7 +140,7 @@ export function HistoryPage() {
           placeholder="銘柄コード・名称で絞り込み"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm text-gray-800 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 w-56"
+          className="rounded-lg border border-gray-200 bg-white px-3 min-h-[44px] text-sm text-gray-800 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 w-56"
         />
       </div>
 
@@ -156,11 +156,11 @@ export function HistoryPage() {
           return (
             <div
               key={t.ticker}
-              className="rounded-lg border border-gray-200 bg-white shadow-sm overflow-hidden"
+              className="rounded-xl border border-gray-200 bg-white shadow-sm overflow-hidden"
             >
               <button
                 onClick={() => toggleExpand(t.ticker)}
-                className="w-full flex items-center justify-between px-4 py-3 text-left hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between px-4 min-h-[52px] text-left hover:bg-gray-50 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-blue-500"
               >
                 <div className="flex items-center gap-3 min-w-0">
                   <span className="text-xs text-gray-400 shrink-0">
@@ -169,7 +169,7 @@ export function HistoryPage() {
                   <Link
                     to={"/stock/" + encodeURIComponent(t.ticker)}
                     onClick={(e) => e.stopPropagation()}
-                    className="font-medium text-gray-900 hover:text-blue-700 hover:underline truncate"
+                    className="text-sm font-semibold text-gray-900 hover:text-blue-700 hover:underline truncate"
                   >
                     {t.name}
                   </Link>
@@ -202,7 +202,7 @@ export function HistoryPage() {
                       return (
                         <div
                           key={idx}
-                          className="px-4 py-2.5 flex items-center gap-3 text-sm flex-wrap"
+                          className="px-4 min-h-[44px] flex items-center gap-3 text-sm flex-wrap"
                         >
                           <span className="text-xs text-gray-400 w-24 shrink-0">
                             {entry.detectedDate}

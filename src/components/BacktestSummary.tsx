@@ -59,40 +59,58 @@ export function BacktestSummary({ backtest, direction }: Props) {
     .filter((r) => r.stat !== undefined);
 
   return (
-    <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-4">
-      {/* Overall */}
-      <div className="flex items-center gap-3 mb-2">
-        <span className="text-xs font-medium text-blue-700">過去実績</span>
-        {overall_win_rate !== null && (
-          <span className="text-sm font-bold text-blue-800">
-            総合勝率 {overall_win_rate}%
-          </span>
-        )}
-        <span className="text-xs text-blue-600">
-          {total_verified}件 / {hold_days}営業日後判定
-        </span>
+    <div className="bg-white border border-gray-200 rounded-xl p-4 mb-4 shadow-sm">
+      {/* Overall stats — numbers are the hero */}
+      <div className="flex items-baseline gap-4 mb-3">
+        <div>
+          <p className="text-xs text-gray-400 mb-0.5">過去実績（バックテスト）</p>
+          {overall_win_rate !== null && (
+            <p className="text-2xl font-bold text-gray-900 leading-none">
+              {overall_win_rate}
+              <span className="text-sm font-medium text-gray-500 ml-1">% 勝率</span>
+            </p>
+          )}
+        </div>
+        <div className="text-right ml-auto">
+          <p className="text-xs text-gray-400">検証件数</p>
+          <p className="text-lg font-semibold text-gray-700">{total_verified}<span className="text-xs font-normal text-gray-400 ml-1">件</span></p>
+          <p className="text-xs text-gray-400">{hold_days}営業日後判定</p>
+        </div>
       </div>
 
-      {/* Per-pattern */}
+      {/* Per-pattern rows */}
       {patternRows.length > 0 && (
-        <div className="flex flex-wrap gap-2">
+        <div className="border-t border-gray-100 pt-3 space-y-1.5">
           {patternRows.map(({ pattern, stat }) => {
             if (!stat) return null;
-            const color =
+            const barColor =
               stat.win_rate >= 70
-                ? "bg-green-100 text-green-800"
+                ? "bg-green-500"
                 : stat.win_rate >= 50
-                ? "bg-yellow-100 text-yellow-800"
-                : "bg-red-100 text-red-800";
+                ? "bg-yellow-400"
+                : "bg-red-400";
+            const textColor =
+              stat.win_rate >= 70
+                ? "text-green-700"
+                : stat.win_rate >= 50
+                ? "text-yellow-700"
+                : "text-red-600";
             return (
-              <span
+              <div
                 key={pattern}
-                className={`inline-flex items-center gap-1 text-xs px-2 py-0.5 rounded-full ${color}`}
+                className="flex items-center gap-2 text-xs"
                 title={`${stat.wins}/${stat.count}件 avg ${stat.avg_return > 0 ? "+" : ""}${stat.avg_return}%`}
               >
-                {PATTERN_NAME_JA[pattern]} {stat.win_rate}%
-                <span className="text-gray-500">({stat.count})</span>
-              </span>
+                <span className="w-20 text-gray-600 shrink-0">{PATTERN_NAME_JA[pattern]}</span>
+                <div className="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                  <div
+                    className={`h-full rounded-full ${barColor}`}
+                    style={{ width: `${Math.min(stat.win_rate, 100)}%` }}
+                  />
+                </div>
+                <span className={`font-semibold w-10 text-right ${textColor}`}>{stat.win_rate}%</span>
+                <span className="text-gray-400 w-8 text-right">({stat.count})</span>
+              </div>
             );
           })}
         </div>

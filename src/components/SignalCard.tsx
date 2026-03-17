@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import type { Signal } from "../types";
-import { PATTERN_META } from "../data/pattern-meta";
 import { PatternChart } from "./PatternChart";
 
 interface SignalCardProps {
@@ -12,15 +11,15 @@ interface SignalCardProps {
 }
 
 const CONFIDENCE_LABEL: Record<string, string> = {
-  high: "高",
-  medium: "中",
-  low: "低",
+  high: "確信度 高",
+  medium: "確信度 中",
+  low: "確信度 低",
 };
 
 const CONFIDENCE_COLOR: Record<string, string> = {
-  high: "bg-green-100 text-green-800",
-  medium: "bg-yellow-100 text-yellow-800",
-  low: "bg-gray-100 text-gray-600",
+  high: "bg-green-50 text-green-700 ring-1 ring-green-200",
+  medium: "bg-yellow-50 text-yellow-700 ring-1 ring-yellow-200",
+  low: "bg-gray-100 text-gray-500",
 };
 
 function daysAgo(dateStr: string): number {
@@ -28,7 +27,6 @@ function daysAgo(dateStr: string): number {
 }
 
 export function SignalCard({ signal, showPnL, buyPrice, quantity, showChart }: SignalCardProps) {
-  const meta = PATTERN_META[signal.pattern];
   const isBuy = signal.direction === "buy";
   const ago = daysAgo(signal.pattern_detail.end_date);
   const directionColor = isBuy ? "border-l-green-500" : "border-l-red-500";
@@ -48,71 +46,64 @@ export function SignalCard({ signal, showPnL, buyPrice, quantity, showChart }: S
 
   return (
     <div
-      className={`rounded-lg border border-gray-200 border-l-4 ${directionColor} bg-white p-4 shadow-sm`}
+      className={`rounded-xl border border-gray-200 border-l-4 ${directionColor} bg-white px-4 py-3 shadow-sm hover:shadow-md transition-shadow`}
     >
-      <div className="flex items-start justify-between gap-2">
-        <div className="min-w-0">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-xs text-gray-500">{signal.ticker}</span>
-            <Link
-              to={`/stock/${encodeURIComponent(signal.ticker)}`}
-              className="font-semibold text-gray-900 hover:text-blue-700 hover:underline truncate"
-            >
-              {signal.name}
-            </Link>
-          </div>
-          <div className="mt-1 flex items-center gap-2 flex-wrap">
-            <span
-              className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${directionBadge}`}
-            >
-              {isBuy ? "買い" : "売り"}
-            </span>
-            <span className="text-sm font-medium text-gray-800">
-              {signal.pattern_name_ja}
-            </span>
-            <span className="text-xs text-gray-500">
-              勝率 <span className="font-semibold text-gray-700">{signal.win_rate}%</span>
-            </span>
-            <span
-              className={`inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium ${
-                CONFIDENCE_COLOR[signal.confidence]
-              }`}
-            >
-              確信度：{CONFIDENCE_LABEL[signal.confidence]}
-            </span>
-          </div>
+      {/* Row 1 — Primary: direction badge + ticker/name + price */}
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2 min-w-0">
+          <span
+            className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs font-semibold shrink-0 ${directionBadge}`}
+          >
+            {isBuy ? "買い" : "売り"}
+          </span>
+          <span className="text-xs text-gray-400 shrink-0">
+            {signal.ticker.replace(".T", "")}
+          </span>
+          <Link
+            to={`/stock/${encodeURIComponent(signal.ticker)}`}
+            className="text-sm font-semibold text-gray-900 hover:text-blue-700 hover:underline truncate"
+          >
+            {signal.name}
+          </Link>
         </div>
-
         <div className="text-right shrink-0">
           <p className="text-lg font-bold text-gray-900">
             ¥{signal.current_price.toLocaleString()}
           </p>
           {pnl !== null && pnlPct !== null && (
-            <p
-              className={`text-sm font-medium ${
-                pnl >= 0 ? "text-green-600" : "text-red-600"
-              }`}
-            >
+            <p className={`text-xs font-semibold ${pnl >= 0 ? "text-green-600" : "text-red-600"}`}>
               {pnl >= 0 ? "+" : ""}
               {pnl.toLocaleString(undefined, { maximumFractionDigits: 0 })}円
-              ({pnlPct >= 0 ? "+" : ""}
-              {pnlPct.toFixed(1)}%)
+              （{pnlPct >= 0 ? "+" : ""}{pnlPct.toFixed(1)}%）
             </p>
           )}
         </div>
       </div>
 
-      <p className="mt-2 text-xs text-gray-500">{meta?.description ?? ""}</p>
-
-      <div className="mt-2 flex items-center gap-3 text-xs text-gray-400 flex-wrap">
-        <span>
-          シグナル価格: ¥{signal.signal_price.toLocaleString()}
+      {/* Row 2 — Secondary: pattern + win rate + confidence */}
+      <div className="mt-1.5 flex items-center gap-2 flex-wrap">
+        <span className="text-sm font-semibold text-gray-800">
+          {signal.pattern_name_ja}
         </span>
-        <span>
-          検出期間: {signal.pattern_detail.start_date} 〜 {signal.pattern_detail.end_date}
+        <span className="text-sm text-gray-500">
+          勝率 <span className="font-bold text-gray-800">{signal.win_rate}%</span>
         </span>
         <span
-          className={`inline-flex items-center rounded-full px-2 py-0.5 font-medium ${
+          className={`inline-flex items-center rounded-md px-2 py-0.5 text-xs font-medium ${
+            CONFIDENCE_COLOR[signal.confidence]
+          }`}
+        >
+          {CONFIDENCE_LABEL[signal.confidence]}
+        </span>
+      </div>
+
+      {/* Row 3 — Tertiary: signal price, date range, days ago */}
+      <div className="mt-1.5 flex items-center gap-3 text-xs text-gray-400">
+        <span>¥{signal.signal_price.toLocaleString()}</span>
+        <span className="text-gray-200">|</span>
+        <span>{signal.pattern_detail.start_date} 〜 {signal.pattern_detail.end_date}</span>
+        <span
+          className={`ml-auto inline-flex items-center rounded-full px-2 py-0.5 font-medium text-xs ${
             ago === 0
               ? "bg-blue-100 text-blue-700"
               : ago <= 3
