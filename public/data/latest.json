@@ -1,417 +1,8 @@
 {
-  "analyzed_at": "2026-11-10T02:46:26.519144+09:00",
-  "market_date": "2026-11-09",
+  "analyzed_at": "2026-11-11T00:45:10.994145+09:00",
+  "market_date": "2026-11-10",
   "total_analyzed": 224,
   "buy_signals": [
-    {
-      "ticker": "4902.T",
-      "name": "コニカミノルタ",
-      "pattern": "inverse_head_shoulders",
-      "pattern_name_ja": "逆三尊",
-      "win_rate": 95,
-      "direction": "buy",
-      "current_price": 570.4000244140625,
-      "signal_price": 685.1000061035156,
-      "pattern_detail": {
-        "start_date": "2026-08-19",
-        "end_date": "2026-10-27",
-        "key_points": [
-          {
-            "date": "2026-08-19",
-            "price": 621.7999877929688,
-            "label": "left_shoulder"
-          },
-          {
-            "date": "2026-09-01",
-            "price": 696.0,
-            "label": "left_neckline"
-          },
-          {
-            "date": "2026-09-09",
-            "price": 574.9000244140625,
-            "label": "head"
-          },
-          {
-            "date": "2026-10-01",
-            "price": 674.2000122070312,
-            "label": "right_neckline"
-          },
-          {
-            "date": "2026-10-07",
-            "price": 638.9000244140625,
-            "label": "right_shoulder"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 690.5999755859375,
-            "label": "breakout"
-          }
-        ]
-      },
-      "confidence": "medium",
-      "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 589.6
-        },
-        {
-          "date": "2026-06-26",
-          "close": 564.7
-        },
-        {
-          "date": "2026-06-29",
-          "close": 562.3
-        },
-        {
-          "date": "2026-06-30",
-          "close": 549.3
-        },
-        {
-          "date": "2026-07-01",
-          "close": 549.2
-        },
-        {
-          "date": "2026-07-02",
-          "close": 566.4
-        },
-        {
-          "date": "2026-07-03",
-          "close": 573.7
-        },
-        {
-          "date": "2026-07-06",
-          "close": 587.0
-        },
-        {
-          "date": "2026-07-07",
-          "close": 589.4
-        },
-        {
-          "date": "2026-07-08",
-          "close": 582.0
-        },
-        {
-          "date": "2026-07-09",
-          "close": 575.3
-        },
-        {
-          "date": "2026-07-10",
-          "close": 584.2
-        },
-        {
-          "date": "2026-07-13",
-          "close": 589.7
-        },
-        {
-          "date": "2026-07-14",
-          "close": 605.6
-        },
-        {
-          "date": "2026-07-15",
-          "close": 618.7
-        },
-        {
-          "date": "2026-07-16",
-          "close": 625.1
-        },
-        {
-          "date": "2026-07-17",
-          "close": 612.7
-        },
-        {
-          "date": "2026-07-21",
-          "close": 633.5
-        },
-        {
-          "date": "2026-07-22",
-          "close": 639.1
-        },
-        {
-          "date": "2026-07-23",
-          "close": 636.5
-        },
-        {
-          "date": "2026-07-24",
-          "close": 646.6
-        },
-        {
-          "date": "2026-07-27",
-          "close": 682.4
-        },
-        {
-          "date": "2026-07-28",
-          "close": 661.5
-        },
-        {
-          "date": "2026-07-29",
-          "close": 684.2
-        },
-        {
-          "date": "2026-07-30",
-          "close": 690.8
-        },
-        {
-          "date": "2026-07-31",
-          "close": 590.8
-        },
-        {
-          "date": "2026-08-03",
-          "close": 595.5
-        },
-        {
-          "date": "2026-08-04",
-          "close": 588.3
-        },
-        {
-          "date": "2026-08-05",
-          "close": 604.8
-        },
-        {
-          "date": "2026-08-06",
-          "close": 623.2
-        },
-        {
-          "date": "2026-08-07",
-          "close": 658.5
-        },
-        {
-          "date": "2026-08-10",
-          "close": 654.7
-        },
-        {
-          "date": "2026-08-12",
-          "close": 670.4
-        },
-        {
-          "date": "2026-08-13",
-          "close": 663.5
-        },
-        {
-          "date": "2026-08-14",
-          "close": 690.9
-        },
-        {
-          "date": "2026-08-17",
-          "close": 670.7
-        },
-        {
-          "date": "2026-08-18",
-          "close": 635.8
-        },
-        {
-          "date": "2026-08-19",
-          "close": 621.8
-        },
-        {
-          "date": "2026-08-20",
-          "close": 642.9
-        },
-        {
-          "date": "2026-08-21",
-          "close": 648.3
-        },
-        {
-          "date": "2026-08-24",
-          "close": 649.6
-        },
-        {
-          "date": "2026-08-25",
-          "close": 650.6
-        },
-        {
-          "date": "2026-08-26",
-          "close": 665.5
-        },
-        {
-          "date": "2026-08-27",
-          "close": 658.9
-        },
-        {
-          "date": "2026-08-28",
-          "close": 660.7
-        },
-        {
-          "date": "2026-08-31",
-          "close": 666.8
-        },
-        {
-          "date": "2026-09-01",
-          "close": 696.0
-        },
-        {
-          "date": "2026-09-02",
-          "close": 666.9
-        },
-        {
-          "date": "2026-09-03",
-          "close": 663.5
-        },
-        {
-          "date": "2026-09-04",
-          "close": 658.5
-        },
-        {
-          "date": "2026-09-07",
-          "close": 621.3
-        },
-        {
-          "date": "2026-09-08",
-          "close": 587.8
-        },
-        {
-          "date": "2026-09-09",
-          "close": 574.9
-        },
-        {
-          "date": "2026-09-10",
-          "close": 588.2
-        },
-        {
-          "date": "2026-09-11",
-          "close": 595.4
-        },
-        {
-          "date": "2026-09-14",
-          "close": 617.4
-        },
-        {
-          "date": "2026-09-15",
-          "close": 623.1
-        },
-        {
-          "date": "2026-09-16",
-          "close": 646.7
-        },
-        {
-          "date": "2026-09-17",
-          "close": 653.7
-        },
-        {
-          "date": "2026-09-18",
-          "close": 641.2
-        },
-        {
-          "date": "2026-09-24",
-          "close": 661.1
-        },
-        {
-          "date": "2026-09-25",
-          "close": 670.8
-        },
-        {
-          "date": "2026-09-28",
-          "close": 654.9
-        },
-        {
-          "date": "2026-09-29",
-          "close": 646.1
-        },
-        {
-          "date": "2026-09-30",
-          "close": 671.7
-        },
-        {
-          "date": "2026-10-01",
-          "close": 674.2
-        },
-        {
-          "date": "2026-10-02",
-          "close": 645.8
-        },
-        {
-          "date": "2026-10-05",
-          "close": 643.5
-        },
-        {
-          "date": "2026-10-06",
-          "close": 652.0
-        },
-        {
-          "date": "2026-10-07",
-          "close": 638.9
-        },
-        {
-          "date": "2026-10-08",
-          "close": 643.2
-        },
-        {
-          "date": "2026-10-09",
-          "close": 639.2
-        },
-        {
-          "date": "2026-10-13",
-          "close": 656.0
-        },
-        {
-          "date": "2026-10-14",
-          "close": 658.5
-        },
-        {
-          "date": "2026-10-15",
-          "close": 659.0
-        },
-        {
-          "date": "2026-10-16",
-          "close": 683.9
-        },
-        {
-          "date": "2026-10-19",
-          "close": 668.8
-        },
-        {
-          "date": "2026-10-20",
-          "close": 649.9
-        },
-        {
-          "date": "2026-10-21",
-          "close": 672.0
-        },
-        {
-          "date": "2026-10-22",
-          "close": 662.8
-        },
-        {
-          "date": "2026-10-23",
-          "close": 658.9
-        },
-        {
-          "date": "2026-10-26",
-          "close": 660.6
-        },
-        {
-          "date": "2026-10-27",
-          "close": 690.6
-        },
-        {
-          "date": "2026-10-28",
-          "close": 688.1
-        },
-        {
-          "date": "2026-10-29",
-          "close": 680.5
-        },
-        {
-          "date": "2026-10-30",
-          "close": 664.9
-        },
-        {
-          "date": "2026-11-02",
-          "close": 656.0
-        },
-        {
-          "date": "2026-11-04",
-          "close": 633.6
-        },
-        {
-          "date": "2026-11-05",
-          "close": 643.7
-        },
-        {
-          "date": "2026-11-06",
-          "close": 570.4
-        }
-      ]
-    },
     {
       "ticker": "5108.T",
       "name": "ブリヂストン",
@@ -419,7 +10,7 @@
       "pattern_name_ja": "逆三尊",
       "win_rate": 95,
       "direction": "buy",
-      "current_price": 4105.0,
+      "current_price": 4268.0,
       "signal_price": 4104.5,
       "pattern_detail": {
         "start_date": "2026-08-19",
@@ -459,10 +50,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3425.0
-        },
         {
           "date": "2026-06-26",
           "close": 3402.0
@@ -818,6 +405,10 @@
         {
           "date": "2026-11-06",
           "close": 4105.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4268.0
         }
       ]
     },
@@ -828,7 +419,7 @@
       "pattern_name_ja": "逆三尊",
       "win_rate": 95,
       "direction": "buy",
-      "current_price": 2718.0,
+      "current_price": 2789.5,
       "signal_price": 2675.75,
       "pattern_detail": {
         "start_date": "2026-09-08",
@@ -868,10 +459,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2401.5
-        },
         {
           "date": "2026-06-26",
           "close": 2401.0
@@ -1227,6 +814,10 @@
         {
           "date": "2026-11-06",
           "close": 2718.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2789.5
         }
       ]
     },
@@ -1237,7 +828,7 @@
       "pattern_name_ja": "逆三尊",
       "win_rate": 95,
       "direction": "buy",
-      "current_price": 4645.0,
+      "current_price": 4731.0,
       "signal_price": 4849.5,
       "pattern_detail": {
         "start_date": "2026-08-19",
@@ -1277,10 +868,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4258.0
-        },
         {
           "date": "2026-06-26",
           "close": 4178.0
@@ -1636,6 +1223,10 @@
         {
           "date": "2026-11-06",
           "close": 4645.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4731.0
         }
       ]
     },
@@ -1646,7 +1237,7 @@
       "pattern_name_ja": "逆三尊",
       "win_rate": 95,
       "direction": "buy",
-      "current_price": 3910.0,
+      "current_price": 4014.0,
       "signal_price": 3890.0,
       "pattern_detail": {
         "start_date": "2026-08-18",
@@ -1686,10 +1277,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3984.0
-        },
         {
           "date": "2026-06-26",
           "close": 4101.0
@@ -2045,6 +1632,10 @@
         {
           "date": "2026-11-06",
           "close": 3910.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4014.0
         }
       ]
     },
@@ -2055,7 +1646,7 @@
       "pattern_name_ja": "逆三尊",
       "win_rate": 95,
       "direction": "buy",
-      "current_price": 3212.0,
+      "current_price": 3319.0,
       "signal_price": 3398.5,
       "pattern_detail": {
         "start_date": "2026-08-19",
@@ -2095,10 +1686,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3493.0
-        },
         {
           "date": "2026-06-26",
           "close": 3572.0
@@ -2454,6 +2041,10 @@
         {
           "date": "2026-11-06",
           "close": 3212.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3319.0
         }
       ]
     },
@@ -2464,7 +2055,7 @@
       "pattern_name_ja": "逆三尊",
       "win_rate": 95,
       "direction": "buy",
-      "current_price": 3829.0,
+      "current_price": 4005.0,
       "signal_price": 3662.5,
       "pattern_detail": {
         "start_date": "2026-09-07",
@@ -2504,10 +2095,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3343.0
-        },
         {
           "date": "2026-06-26",
           "close": 3386.0
@@ -2863,6 +2450,10 @@
         {
           "date": "2026-11-06",
           "close": 3829.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4005.0
         }
       ]
     },
@@ -2873,7 +2464,7 @@
       "pattern_name_ja": "逆三尊",
       "win_rate": 95,
       "direction": "buy",
-      "current_price": 4172.0,
+      "current_price": 4350.0,
       "signal_price": 3923.5,
       "pattern_detail": {
         "start_date": "2026-09-07",
@@ -2913,10 +2504,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3341.0
-        },
         {
           "date": "2026-06-26",
           "close": 3420.0
@@ -3272,6 +2859,10 @@
         {
           "date": "2026-11-06",
           "close": 4172.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4350.0
         }
       ]
     },
@@ -3282,7 +2873,7 @@
       "pattern_name_ja": "逆三尊",
       "win_rate": 95,
       "direction": "buy",
-      "current_price": 77950.0,
+      "current_price": 80810.0,
       "signal_price": 78400.0,
       "pattern_detail": {
         "start_date": "2026-07-24",
@@ -3322,10 +2913,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 84300.0
-        },
         {
           "date": "2026-06-26",
           "close": 84070.0
@@ -3681,400 +3268,10 @@
         {
           "date": "2026-11-06",
           "close": 77950.0
-        }
-      ]
-    },
-    {
-      "ticker": "4704.T",
-      "name": "トレンドマイクロ",
-      "pattern": "spike_bottom",
-      "pattern_name_ja": "スパイクボトム",
-      "win_rate": 91,
-      "direction": "buy",
-      "current_price": 6478.0,
-      "signal_price": 7556.0,
-      "pattern_detail": {
-        "start_date": "2026-10-13",
-        "end_date": "2026-10-27",
-        "key_points": [
-          {
-            "date": "2026-10-13",
-            "price": 7455.0,
-            "label": "pre_drop"
-          },
-          {
-            "date": "2026-10-20",
-            "price": 6700.0,
-            "label": "bottom"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 7556.0,
-            "label": "recovery"
-          }
-        ]
-      },
-      "confidence": "medium",
-      "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 5698.0
-        },
-        {
-          "date": "2026-06-26",
-          "close": 5590.0
-        },
-        {
-          "date": "2026-06-29",
-          "close": 5973.0
-        },
-        {
-          "date": "2026-06-30",
-          "close": 5982.0
-        },
-        {
-          "date": "2026-07-01",
-          "close": 5962.0
-        },
-        {
-          "date": "2026-07-02",
-          "close": 6261.0
-        },
-        {
-          "date": "2026-07-03",
-          "close": 6267.0
-        },
-        {
-          "date": "2026-07-06",
-          "close": 6372.0
-        },
-        {
-          "date": "2026-07-07",
-          "close": 6382.0
-        },
-        {
-          "date": "2026-07-08",
-          "close": 6242.0
-        },
-        {
-          "date": "2026-07-09",
-          "close": 6257.0
-        },
-        {
-          "date": "2026-07-10",
-          "close": 6277.0
-        },
-        {
-          "date": "2026-07-13",
-          "close": 6242.0
-        },
-        {
-          "date": "2026-07-14",
-          "close": 6335.0
-        },
-        {
-          "date": "2026-07-15",
-          "close": 6391.0
-        },
-        {
-          "date": "2026-07-16",
-          "close": 6470.0
-        },
-        {
-          "date": "2026-07-17",
-          "close": 6480.0
-        },
-        {
-          "date": "2026-07-21",
-          "close": 6364.0
-        },
-        {
-          "date": "2026-07-22",
-          "close": 6319.0
-        },
-        {
-          "date": "2026-07-23",
-          "close": 6165.0
-        },
-        {
-          "date": "2026-07-24",
-          "close": 6269.0
-        },
-        {
-          "date": "2026-07-27",
-          "close": 6490.0
-        },
-        {
-          "date": "2026-07-28",
-          "close": 6574.0
-        },
-        {
-          "date": "2026-07-29",
-          "close": 6799.0
-        },
-        {
-          "date": "2026-07-30",
-          "close": 6743.0
-        },
-        {
-          "date": "2026-07-31",
-          "close": 6341.0
-        },
-        {
-          "date": "2026-08-03",
-          "close": 6304.0
-        },
-        {
-          "date": "2026-08-04",
-          "close": 6466.0
-        },
-        {
-          "date": "2026-08-05",
-          "close": 6467.0
-        },
-        {
-          "date": "2026-08-06",
-          "close": 6720.0
-        },
-        {
-          "date": "2026-08-07",
-          "close": 6732.0
-        },
-        {
-          "date": "2026-08-10",
-          "close": 6916.0
-        },
-        {
-          "date": "2026-08-12",
-          "close": 6966.0
-        },
-        {
-          "date": "2026-08-13",
-          "close": 6851.0
-        },
-        {
-          "date": "2026-08-14",
-          "close": 5851.0
-        },
-        {
-          "date": "2026-08-17",
-          "close": 5352.0
-        },
-        {
-          "date": "2026-08-18",
-          "close": 5516.0
-        },
-        {
-          "date": "2026-08-19",
-          "close": 5614.0
-        },
-        {
-          "date": "2026-08-20",
-          "close": 5708.0
-        },
-        {
-          "date": "2026-08-21",
-          "close": 5472.0
-        },
-        {
-          "date": "2026-08-24",
-          "close": 5590.0
-        },
-        {
-          "date": "2026-08-25",
-          "close": 5554.0
-        },
-        {
-          "date": "2026-08-26",
-          "close": 5569.0
-        },
-        {
-          "date": "2026-08-27",
-          "close": 5711.0
-        },
-        {
-          "date": "2026-08-28",
-          "close": 6050.0
-        },
-        {
-          "date": "2026-08-31",
-          "close": 5997.0
-        },
-        {
-          "date": "2026-09-01",
-          "close": 6045.0
-        },
-        {
-          "date": "2026-09-02",
-          "close": 5778.0
-        },
-        {
-          "date": "2026-09-03",
-          "close": 5752.0
-        },
-        {
-          "date": "2026-09-04",
-          "close": 6100.0
-        },
-        {
-          "date": "2026-09-07",
-          "close": 5772.0
-        },
-        {
-          "date": "2026-09-08",
-          "close": 5798.0
-        },
-        {
-          "date": "2026-09-09",
-          "close": 5626.0
-        },
-        {
-          "date": "2026-09-10",
-          "close": 5718.0
-        },
-        {
-          "date": "2026-09-11",
-          "close": 5813.0
-        },
-        {
-          "date": "2026-09-14",
-          "close": 6069.0
-        },
-        {
-          "date": "2026-09-15",
-          "close": 6332.0
-        },
-        {
-          "date": "2026-09-16",
-          "close": 6391.0
-        },
-        {
-          "date": "2026-09-17",
-          "close": 6454.0
-        },
-        {
-          "date": "2026-09-18",
-          "close": 6609.0
-        },
-        {
-          "date": "2026-09-24",
-          "close": 6588.0
-        },
-        {
-          "date": "2026-09-25",
-          "close": 6541.0
-        },
-        {
-          "date": "2026-09-28",
-          "close": 6439.0
-        },
-        {
-          "date": "2026-09-29",
-          "close": 6530.0
-        },
-        {
-          "date": "2026-09-30",
-          "close": 6533.0
-        },
-        {
-          "date": "2026-10-01",
-          "close": 6671.0
-        },
-        {
-          "date": "2026-10-02",
-          "close": 6798.0
-        },
-        {
-          "date": "2026-10-05",
-          "close": 6742.0
-        },
-        {
-          "date": "2026-10-06",
-          "close": 6928.0
-        },
-        {
-          "date": "2026-10-07",
-          "close": 6961.0
-        },
-        {
-          "date": "2026-10-08",
-          "close": 7232.0
-        },
-        {
-          "date": "2026-10-09",
-          "close": 7587.0
-        },
-        {
-          "date": "2026-10-13",
-          "close": 7455.0
-        },
-        {
-          "date": "2026-10-14",
-          "close": 7394.0
-        },
-        {
-          "date": "2026-10-15",
-          "close": 7070.0
-        },
-        {
-          "date": "2026-10-16",
-          "close": 7346.0
-        },
-        {
-          "date": "2026-10-19",
-          "close": 7037.0
-        },
-        {
-          "date": "2026-10-20",
-          "close": 6700.0
-        },
-        {
-          "date": "2026-10-21",
-          "close": 6729.0
-        },
-        {
-          "date": "2026-10-22",
-          "close": 7314.0
-        },
-        {
-          "date": "2026-10-23",
-          "close": 7260.0
-        },
-        {
-          "date": "2026-10-26",
-          "close": 7565.0
-        },
-        {
-          "date": "2026-10-27",
-          "close": 7556.0
-        },
-        {
-          "date": "2026-10-28",
-          "close": 7520.0
-        },
-        {
-          "date": "2026-10-29",
-          "close": 7308.0
-        },
-        {
-          "date": "2026-10-30",
-          "close": 7311.0
-        },
-        {
-          "date": "2026-11-02",
-          "close": 7154.0
-        },
-        {
-          "date": "2026-11-04",
-          "close": 6958.0
-        },
-        {
-          "date": "2026-11-05",
-          "close": 7083.0
         },
         {
-          "date": "2026-11-06",
-          "close": 6478.0
+          "date": "2026-11-09",
+          "close": 80810.0
         }
       ]
     },
@@ -4085,7 +3282,7 @@
       "pattern_name_ja": "スパイクボトム",
       "win_rate": 91,
       "direction": "buy",
-      "current_price": 27350.0,
+      "current_price": 28555.0,
       "signal_price": 28985.0,
       "pattern_detail": {
         "start_date": "2026-10-21",
@@ -4110,10 +3307,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 17380.0
-        },
         {
           "date": "2026-06-26",
           "close": 17280.0
@@ -4469,6 +3662,10 @@
         {
           "date": "2026-11-06",
           "close": 27350.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 28555.0
         }
       ]
     },
@@ -4479,7 +3676,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 3475.0,
+      "current_price": 3563.0,
       "signal_price": 3678.0,
       "pattern_detail": {
         "start_date": "2026-06-05",
@@ -4509,10 +3706,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3280.0
-        },
         {
           "date": "2026-06-26",
           "close": 3340.0
@@ -4868,6 +4061,10 @@
         {
           "date": "2026-11-06",
           "close": 3475.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3563.0
         }
       ]
     },
@@ -4878,7 +4075,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 2627.0,
+      "current_price": 2682.5,
       "signal_price": 2664.5,
       "pattern_detail": {
         "start_date": "2026-06-24",
@@ -4908,10 +4105,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2358.0
-        },
         {
           "date": "2026-06-26",
           "close": 2405.5
@@ -5267,6 +4460,10 @@
         {
           "date": "2026-11-06",
           "close": 2627.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2682.5
         }
       ]
     },
@@ -5277,7 +4474,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 2161.5,
+      "current_price": 2239.5,
       "signal_price": 2163.0,
       "pattern_detail": {
         "start_date": "2026-07-02",
@@ -5307,10 +4504,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2038.5
-        },
         {
           "date": "2026-06-26",
           "close": 2046.0
@@ -5666,6 +4859,10 @@
         {
           "date": "2026-11-06",
           "close": 2161.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2239.5
         }
       ]
     },
@@ -5676,7 +4873,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 1698.5,
+      "current_price": 1761.0,
       "signal_price": 1743.5,
       "pattern_detail": {
         "start_date": "2026-08-05",
@@ -5706,10 +4903,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1540.0
-        },
         {
           "date": "2026-06-26",
           "close": 1563.0
@@ -6065,6 +5258,10 @@
         {
           "date": "2026-11-06",
           "close": 1698.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1761.0
         }
       ]
     },
@@ -6075,7 +5272,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 2967.0,
+      "current_price": 3121.0,
       "signal_price": 3133.0,
       "pattern_detail": {
         "start_date": "2026-07-01",
@@ -6105,10 +5302,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2815.5
-        },
         {
           "date": "2026-06-26",
           "close": 2822.5
@@ -6464,6 +5657,10 @@
         {
           "date": "2026-11-06",
           "close": 2967.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3121.0
         }
       ]
     },
@@ -6474,7 +5671,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 2165.0,
+      "current_price": 2205.0,
       "signal_price": 2256.0,
       "pattern_detail": {
         "start_date": "2026-07-15",
@@ -6504,10 +5701,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1910.5
-        },
         {
           "date": "2026-06-26",
           "close": 1903.5
@@ -6863,6 +6056,10 @@
         {
           "date": "2026-11-06",
           "close": 2165.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2205.0
         }
       ]
     },
@@ -6873,7 +6070,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 1842.0,
+      "current_price": 1888.0,
       "signal_price": 1954.5,
       "pattern_detail": {
         "start_date": "2026-08-03",
@@ -6903,10 +6100,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1699.5
-        },
         {
           "date": "2026-06-26",
           "close": 1654.5
@@ -7262,6 +6455,10 @@
         {
           "date": "2026-11-06",
           "close": 1842.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1888.0
         }
       ]
     },
@@ -7272,7 +6469,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 2981.5,
+      "current_price": 3056.0,
       "signal_price": 3070.0,
       "pattern_detail": {
         "start_date": "2026-06-09",
@@ -7302,10 +6499,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2718.5
-        },
         {
           "date": "2026-06-26",
           "close": 2755.0
@@ -7661,6 +6854,10 @@
         {
           "date": "2026-11-06",
           "close": 2981.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3056.0
         }
       ]
     },
@@ -7671,7 +6868,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 4236.0,
+      "current_price": 4402.0,
       "signal_price": 4425.0,
       "pattern_detail": {
         "start_date": "2026-06-11",
@@ -7701,10 +6898,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4092.0
-        },
         {
           "date": "2026-06-26",
           "close": 4087.0
@@ -8060,6 +7253,10 @@
         {
           "date": "2026-11-06",
           "close": 4236.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4402.0
         }
       ]
     },
@@ -8070,7 +7267,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 347.20001220703125,
+      "current_price": 337.79998779296875,
       "signal_price": 374.0,
       "pattern_detail": {
         "start_date": "2026-09-08",
@@ -8100,10 +7297,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 309.4
-        },
         {
           "date": "2026-06-26",
           "close": 313.8
@@ -8459,6 +7652,10 @@
         {
           "date": "2026-11-06",
           "close": 347.2
+        },
+        {
+          "date": "2026-11-09",
+          "close": 337.8
         }
       ]
     },
@@ -8469,7 +7666,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 2196.5,
+      "current_price": 2297.5,
       "signal_price": 2255.0,
       "pattern_detail": {
         "start_date": "2026-08-04",
@@ -8499,10 +7696,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1936.5
-        },
         {
           "date": "2026-06-26",
           "close": 1963.5
@@ -8858,6 +8051,10 @@
         {
           "date": "2026-11-06",
           "close": 2196.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2297.5
         }
       ]
     },
@@ -8868,7 +8065,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 4958.0,
+      "current_price": 5170.0,
       "signal_price": 5059.0,
       "pattern_detail": {
         "start_date": "2026-08-05",
@@ -8898,10 +8095,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4400.0
-        },
         {
           "date": "2026-06-26",
           "close": 4403.0
@@ -9257,6 +8450,10 @@
         {
           "date": "2026-11-06",
           "close": 4958.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 5170.0
         }
       ]
     },
@@ -9267,7 +8464,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 2133.0,
+      "current_price": 2199.0,
       "signal_price": 2191.5,
       "pattern_detail": {
         "start_date": "2026-09-14",
@@ -9297,10 +8494,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2602.0
-        },
         {
           "date": "2026-06-26",
           "close": 2569.0
@@ -9656,6 +8849,10 @@
         {
           "date": "2026-11-06",
           "close": 2133.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2199.0
         }
       ]
     },
@@ -9666,7 +8863,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 3316.0,
+      "current_price": 3354.0,
       "signal_price": 3528.0,
       "pattern_detail": {
         "start_date": "2026-07-01",
@@ -9696,10 +8893,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3291.0
-        },
         {
           "date": "2026-06-26",
           "close": 3257.0
@@ -10055,6 +9248,10 @@
         {
           "date": "2026-11-06",
           "close": 3316.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3354.0
         }
       ]
     },
@@ -10065,7 +9262,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 3212.0,
+      "current_price": 3319.0,
       "signal_price": 3402.0,
       "pattern_detail": {
         "start_date": "2026-08-19",
@@ -10095,10 +9292,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3493.0
-        },
         {
           "date": "2026-06-26",
           "close": 3572.0
@@ -10454,6 +9647,10 @@
         {
           "date": "2026-11-06",
           "close": 3212.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3319.0
         }
       ]
     },
@@ -10464,7 +9661,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 2879.5,
+      "current_price": 2945.0,
       "signal_price": 3043.0,
       "pattern_detail": {
         "start_date": "2026-08-05",
@@ -10494,10 +9691,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2884.0
-        },
         {
           "date": "2026-06-26",
           "close": 2924.0
@@ -10853,6 +10046,10 @@
         {
           "date": "2026-11-06",
           "close": 2879.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2945.0
         }
       ]
     },
@@ -10863,7 +10060,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 1753.0,
+      "current_price": 1810.5,
       "signal_price": 1849.0,
       "pattern_detail": {
         "start_date": "2026-08-05",
@@ -10893,10 +10090,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1657.0
-        },
         {
           "date": "2026-06-26",
           "close": 1657.5
@@ -11252,6 +10445,10 @@
         {
           "date": "2026-11-06",
           "close": 1753.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1810.5
         }
       ]
     },
@@ -11262,7 +10459,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 3829.0,
+      "current_price": 4005.0,
       "signal_price": 3935.0,
       "pattern_detail": {
         "start_date": "2026-06-04",
@@ -11292,10 +10489,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3343.0
-        },
         {
           "date": "2026-06-26",
           "close": 3386.0
@@ -11651,6 +10844,10 @@
         {
           "date": "2026-11-06",
           "close": 3829.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4005.0
         }
       ]
     },
@@ -11661,7 +10858,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 3182.0,
+      "current_price": 3295.0,
       "signal_price": 3219.0,
       "pattern_detail": {
         "start_date": "2026-07-23",
@@ -11691,10 +10888,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2637.5
-        },
         {
           "date": "2026-06-26",
           "close": 2676.5
@@ -12050,6 +11243,10 @@
         {
           "date": "2026-11-06",
           "close": 3182.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3295.0
         }
       ]
     },
@@ -12060,7 +11257,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 4172.0,
+      "current_price": 4350.0,
       "signal_price": 4003.0,
       "pattern_detail": {
         "start_date": "2026-08-04",
@@ -12090,10 +11287,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3341.0
-        },
         {
           "date": "2026-06-26",
           "close": 3420.0
@@ -12449,6 +11642,10 @@
         {
           "date": "2026-11-06",
           "close": 4172.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4350.0
         }
       ]
     },
@@ -12459,7 +11656,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 3277.0,
+      "current_price": 3401.0,
       "signal_price": 3096.0,
       "pattern_detail": {
         "start_date": "2026-08-19",
@@ -12489,10 +11686,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2816.0
-        },
         {
           "date": "2026-06-26",
           "close": 2846.0
@@ -12848,6 +12041,10 @@
         {
           "date": "2026-11-06",
           "close": 3277.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3401.0
         }
       ]
     },
@@ -12858,7 +12055,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 3237.0,
+      "current_price": 3340.0,
       "signal_price": 3221.0,
       "pattern_detail": {
         "start_date": "2026-07-24",
@@ -12888,10 +12085,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2992.0
-        },
         {
           "date": "2026-06-26",
           "close": 3000.0
@@ -13247,6 +12440,10 @@
         {
           "date": "2026-11-06",
           "close": 3237.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3340.0
         }
       ]
     },
@@ -13257,7 +12454,7 @@
       "pattern_name_ja": "ダブルボトム",
       "win_rate": 89,
       "direction": "buy",
-      "current_price": 6214.0,
+      "current_price": 6348.0,
       "signal_price": 6450.0,
       "pattern_detail": {
         "start_date": "2026-07-13",
@@ -13287,10 +12484,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6068.0
-        },
         {
           "date": "2026-06-26",
           "close": 6111.0
@@ -13646,6 +12839,10 @@
         {
           "date": "2026-11-06",
           "close": 6214.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 6348.0
         }
       ]
     },
@@ -13656,7 +12853,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 3475.0,
+      "current_price": 3563.0,
       "signal_price": 3678.0,
       "pattern_detail": {
         "start_date": "2026-06-26",
@@ -13686,10 +12883,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3280.0
-        },
         {
           "date": "2026-06-26",
           "close": 3340.0
@@ -14045,6 +13238,10 @@
         {
           "date": "2026-11-06",
           "close": 3475.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3563.0
         }
       ]
     },
@@ -14055,7 +13252,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 2273.0,
+      "current_price": 2386.5,
       "signal_price": 2173.5,
       "pattern_detail": {
         "start_date": "2026-07-02",
@@ -14085,10 +13282,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1960.0
-        },
         {
           "date": "2026-06-26",
           "close": 1994.5
@@ -14444,6 +13637,10 @@
         {
           "date": "2026-11-06",
           "close": 2273.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2386.5
         }
       ]
     },
@@ -14454,7 +13651,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 1698.5,
+      "current_price": 1761.0,
       "signal_price": 1776.5,
       "pattern_detail": {
         "start_date": "2026-07-14",
@@ -14484,10 +13681,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1540.0
-        },
         {
           "date": "2026-06-26",
           "close": 1563.0
@@ -14843,6 +14036,10 @@
         {
           "date": "2026-11-06",
           "close": 1698.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1761.0
         }
       ]
     },
@@ -14853,7 +14050,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 2967.0,
+      "current_price": 3121.0,
       "signal_price": 3133.0,
       "pattern_detail": {
         "start_date": "2026-07-13",
@@ -14883,10 +14080,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2815.5
-        },
         {
           "date": "2026-06-26",
           "close": 2822.5
@@ -15242,6 +14435,10 @@
         {
           "date": "2026-11-06",
           "close": 2967.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3121.0
         }
       ]
     },
@@ -15252,7 +14449,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 1690.5,
+      "current_price": 1726.5,
       "signal_price": 1825.0,
       "pattern_detail": {
         "start_date": "2026-08-05",
@@ -15282,10 +14479,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1631.0
-        },
         {
           "date": "2026-06-26",
           "close": 1639.5
@@ -15641,6 +14834,10 @@
         {
           "date": "2026-11-06",
           "close": 1690.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1726.5
         }
       ]
     },
@@ -15651,7 +14848,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 1842.0,
+      "current_price": 1888.0,
       "signal_price": 1891.0,
       "pattern_detail": {
         "start_date": "2026-07-13",
@@ -15681,10 +14878,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1699.5
-        },
         {
           "date": "2026-06-26",
           "close": 1654.5
@@ -16040,6 +15233,10 @@
         {
           "date": "2026-11-06",
           "close": 1842.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1888.0
         }
       ]
     },
@@ -16050,7 +15247,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 3867.0,
+      "current_price": 3964.0,
       "signal_price": 3874.0,
       "pattern_detail": {
         "start_date": "2026-07-14",
@@ -16080,10 +15277,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3035.0
-        },
         {
           "date": "2026-06-26",
           "close": 3053.0
@@ -16439,6 +15632,10 @@
         {
           "date": "2026-11-06",
           "close": 3867.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3964.0
         }
       ]
     },
@@ -16449,7 +15646,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 2981.5,
+      "current_price": 3056.0,
       "signal_price": 3070.0,
       "pattern_detail": {
         "start_date": "2026-07-02",
@@ -16479,10 +15676,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2718.5
-        },
         {
           "date": "2026-06-26",
           "close": 2755.0
@@ -16838,6 +16031,10 @@
         {
           "date": "2026-11-06",
           "close": 2981.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3056.0
         }
       ]
     },
@@ -16848,7 +16045,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 4858.0,
+      "current_price": 5039.0,
       "signal_price": 5110.0,
       "pattern_detail": {
         "start_date": "2026-07-14",
@@ -16878,10 +16075,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3949.0
-        },
         {
           "date": "2026-06-26",
           "close": 3991.0
@@ -17237,6 +16430,10 @@
         {
           "date": "2026-11-06",
           "close": 4858.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 5039.0
         }
       ]
     },
@@ -17247,7 +16444,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 4105.0,
+      "current_price": 4268.0,
       "signal_price": 4120.0,
       "pattern_detail": {
         "start_date": "2026-07-14",
@@ -17277,10 +16474,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3425.0
-        },
         {
           "date": "2026-06-26",
           "close": 3402.0
@@ -17636,6 +16829,10 @@
         {
           "date": "2026-11-06",
           "close": 4105.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4268.0
         }
       ]
     },
@@ -17646,7 +16843,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 347.20001220703125,
+      "current_price": 337.79998779296875,
       "signal_price": 374.0,
       "pattern_detail": {
         "start_date": "2026-08-19",
@@ -17676,10 +16873,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 309.4
-        },
         {
           "date": "2026-06-26",
           "close": 313.8
@@ -18035,6 +17228,10 @@
         {
           "date": "2026-11-06",
           "close": 347.2
+        },
+        {
+          "date": "2026-11-09",
+          "close": 337.8
         }
       ]
     },
@@ -18045,7 +17242,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 2718.0,
+      "current_price": 2789.5,
       "signal_price": 2848.5,
       "pattern_detail": {
         "start_date": "2026-07-14",
@@ -18075,10 +17272,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2401.5
-        },
         {
           "date": "2026-06-26",
           "close": 2401.0
@@ -18434,6 +17627,10 @@
         {
           "date": "2026-11-06",
           "close": 2718.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2789.5
         }
       ]
     },
@@ -18444,7 +17641,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 3829.0,
+      "current_price": 4005.0,
       "signal_price": 3935.0,
       "pattern_detail": {
         "start_date": "2026-07-14",
@@ -18474,10 +17671,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3343.0
-        },
         {
           "date": "2026-06-26",
           "close": 3386.0
@@ -18833,6 +18026,10 @@
         {
           "date": "2026-11-06",
           "close": 3829.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4005.0
         }
       ]
     },
@@ -18843,7 +18040,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 3182.0,
+      "current_price": 3295.0,
       "signal_price": 3219.0,
       "pattern_detail": {
         "start_date": "2026-07-14",
@@ -18873,10 +18070,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2637.5
-        },
         {
           "date": "2026-06-26",
           "close": 2676.5
@@ -19232,6 +18425,10 @@
         {
           "date": "2026-11-06",
           "close": 3182.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3295.0
         }
       ]
     },
@@ -19242,7 +18439,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 4172.0,
+      "current_price": 4350.0,
       "signal_price": 4243.0,
       "pattern_detail": {
         "start_date": "2026-07-14",
@@ -19272,10 +18469,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3341.0
-        },
         {
           "date": "2026-06-26",
           "close": 3420.0
@@ -19631,6 +18824,10 @@
         {
           "date": "2026-11-06",
           "close": 4172.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4350.0
         }
       ]
     },
@@ -19641,7 +18838,7 @@
       "pattern_name_ja": "上昇ペナント",
       "win_rate": 86,
       "direction": "buy",
-      "current_price": 2220.0,
+      "current_price": 2286.0,
       "signal_price": 2180.0,
       "pattern_detail": {
         "start_date": "2026-07-14",
@@ -19671,10 +18868,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1812.0
-        },
         {
           "date": "2026-06-26",
           "close": 1819.5
@@ -20030,6 +19223,414 @@
         {
           "date": "2026-11-06",
           "close": 2220.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2286.0
+        }
+      ]
+    },
+    {
+      "ticker": "2413.T",
+      "name": "エムスリー",
+      "pattern": "cup_with_handle",
+      "pattern_name_ja": "カップウィズハンドル",
+      "win_rate": 84,
+      "direction": "buy",
+      "current_price": 1898.5,
+      "signal_price": 1894.75,
+      "pattern_detail": {
+        "start_date": "2026-08-28",
+        "end_date": "2026-11-09",
+        "key_points": [
+          {
+            "date": "2026-08-28",
+            "price": 1855.0,
+            "label": "left_rim"
+          },
+          {
+            "date": "2026-09-09",
+            "price": 1666.0,
+            "label": "cup_bottom"
+          },
+          {
+            "date": "2026-10-22",
+            "price": 1934.5,
+            "label": "right_rim"
+          },
+          {
+            "date": "2026-11-04",
+            "price": 1784.5,
+            "label": "handle_low"
+          },
+          {
+            "date": "2026-11-09",
+            "price": 1898.5,
+            "label": "breakout"
+          }
+        ]
+      },
+      "confidence": "low",
+      "ohlcv": [
+        {
+          "date": "2026-06-26",
+          "close": 1766.5
+        },
+        {
+          "date": "2026-06-29",
+          "close": 1830.0
+        },
+        {
+          "date": "2026-06-30",
+          "close": 1815.0
+        },
+        {
+          "date": "2026-07-01",
+          "close": 1776.5
+        },
+        {
+          "date": "2026-07-02",
+          "close": 1853.0
+        },
+        {
+          "date": "2026-07-03",
+          "close": 1860.5
+        },
+        {
+          "date": "2026-07-06",
+          "close": 1902.5
+        },
+        {
+          "date": "2026-07-07",
+          "close": 1924.5
+        },
+        {
+          "date": "2026-07-08",
+          "close": 1918.0
+        },
+        {
+          "date": "2026-07-09",
+          "close": 1875.0
+        },
+        {
+          "date": "2026-07-10",
+          "close": 1870.0
+        },
+        {
+          "date": "2026-07-13",
+          "close": 1874.5
+        },
+        {
+          "date": "2026-07-14",
+          "close": 1945.0
+        },
+        {
+          "date": "2026-07-15",
+          "close": 1898.0
+        },
+        {
+          "date": "2026-07-16",
+          "close": 1926.5
+        },
+        {
+          "date": "2026-07-17",
+          "close": 1919.0
+        },
+        {
+          "date": "2026-07-21",
+          "close": 1907.5
+        },
+        {
+          "date": "2026-07-22",
+          "close": 1839.0
+        },
+        {
+          "date": "2026-07-23",
+          "close": 1812.0
+        },
+        {
+          "date": "2026-07-24",
+          "close": 1820.0
+        },
+        {
+          "date": "2026-07-27",
+          "close": 1904.5
+        },
+        {
+          "date": "2026-07-28",
+          "close": 1920.5
+        },
+        {
+          "date": "2026-07-29",
+          "close": 1984.0
+        },
+        {
+          "date": "2026-07-30",
+          "close": 1931.0
+        },
+        {
+          "date": "2026-07-31",
+          "close": 1781.5
+        },
+        {
+          "date": "2026-08-03",
+          "close": 1777.0
+        },
+        {
+          "date": "2026-08-04",
+          "close": 1769.5
+        },
+        {
+          "date": "2026-08-05",
+          "close": 1735.0
+        },
+        {
+          "date": "2026-08-06",
+          "close": 1841.0
+        },
+        {
+          "date": "2026-08-07",
+          "close": 1530.0
+        },
+        {
+          "date": "2026-08-10",
+          "close": 1538.0
+        },
+        {
+          "date": "2026-08-12",
+          "close": 1631.5
+        },
+        {
+          "date": "2026-08-13",
+          "close": 1615.0
+        },
+        {
+          "date": "2026-08-14",
+          "close": 1697.5
+        },
+        {
+          "date": "2026-08-17",
+          "close": 1732.0
+        },
+        {
+          "date": "2026-08-18",
+          "close": 1695.5
+        },
+        {
+          "date": "2026-08-19",
+          "close": 1732.5
+        },
+        {
+          "date": "2026-08-20",
+          "close": 1750.5
+        },
+        {
+          "date": "2026-08-21",
+          "close": 1708.0
+        },
+        {
+          "date": "2026-08-24",
+          "close": 1719.5
+        },
+        {
+          "date": "2026-08-25",
+          "close": 1750.0
+        },
+        {
+          "date": "2026-08-26",
+          "close": 1752.5
+        },
+        {
+          "date": "2026-08-27",
+          "close": 1778.5
+        },
+        {
+          "date": "2026-08-28",
+          "close": 1855.0
+        },
+        {
+          "date": "2026-08-31",
+          "close": 1834.0
+        },
+        {
+          "date": "2026-09-01",
+          "close": 1830.0
+        },
+        {
+          "date": "2026-09-02",
+          "close": 1782.5
+        },
+        {
+          "date": "2026-09-03",
+          "close": 1758.0
+        },
+        {
+          "date": "2026-09-04",
+          "close": 1789.5
+        },
+        {
+          "date": "2026-09-07",
+          "close": 1703.5
+        },
+        {
+          "date": "2026-09-08",
+          "close": 1720.5
+        },
+        {
+          "date": "2026-09-09",
+          "close": 1666.0
+        },
+        {
+          "date": "2026-09-10",
+          "close": 1701.0
+        },
+        {
+          "date": "2026-09-11",
+          "close": 1690.0
+        },
+        {
+          "date": "2026-09-14",
+          "close": 1748.5
+        },
+        {
+          "date": "2026-09-15",
+          "close": 1742.5
+        },
+        {
+          "date": "2026-09-16",
+          "close": 1751.0
+        },
+        {
+          "date": "2026-09-17",
+          "close": 1797.5
+        },
+        {
+          "date": "2026-09-18",
+          "close": 1773.0
+        },
+        {
+          "date": "2026-09-24",
+          "close": 1730.5
+        },
+        {
+          "date": "2026-09-25",
+          "close": 1767.5
+        },
+        {
+          "date": "2026-09-28",
+          "close": 1781.0
+        },
+        {
+          "date": "2026-09-29",
+          "close": 1770.5
+        },
+        {
+          "date": "2026-09-30",
+          "close": 1753.5
+        },
+        {
+          "date": "2026-10-01",
+          "close": 1799.0
+        },
+        {
+          "date": "2026-10-02",
+          "close": 1753.0
+        },
+        {
+          "date": "2026-10-05",
+          "close": 1763.5
+        },
+        {
+          "date": "2026-10-06",
+          "close": 1826.5
+        },
+        {
+          "date": "2026-10-07",
+          "close": 1845.5
+        },
+        {
+          "date": "2026-10-08",
+          "close": 1851.5
+        },
+        {
+          "date": "2026-10-09",
+          "close": 1856.0
+        },
+        {
+          "date": "2026-10-13",
+          "close": 1905.0
+        },
+        {
+          "date": "2026-10-14",
+          "close": 1913.5
+        },
+        {
+          "date": "2026-10-15",
+          "close": 1900.0
+        },
+        {
+          "date": "2026-10-16",
+          "close": 1911.0
+        },
+        {
+          "date": "2026-10-19",
+          "close": 1907.5
+        },
+        {
+          "date": "2026-10-20",
+          "close": 1898.5
+        },
+        {
+          "date": "2026-10-21",
+          "close": 1919.5
+        },
+        {
+          "date": "2026-10-22",
+          "close": 1934.5
+        },
+        {
+          "date": "2026-10-23",
+          "close": 1900.5
+        },
+        {
+          "date": "2026-10-26",
+          "close": 1904.0
+        },
+        {
+          "date": "2026-10-27",
+          "close": 1889.5
+        },
+        {
+          "date": "2026-10-28",
+          "close": 1861.0
+        },
+        {
+          "date": "2026-10-29",
+          "close": 1844.5
+        },
+        {
+          "date": "2026-10-30",
+          "close": 1840.5
+        },
+        {
+          "date": "2026-11-02",
+          "close": 1820.0
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1784.5
+        },
+        {
+          "date": "2026-11-05",
+          "close": 1896.5
+        },
+        {
+          "date": "2026-11-06",
+          "close": 1806.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1898.5
         }
       ]
     },
@@ -20040,11 +19641,11 @@
       "pattern_name_ja": "カップウィズハンドル",
       "win_rate": 84,
       "direction": "buy",
-      "current_price": 3800.0,
+      "current_price": 3929.0,
       "signal_price": 3763.5,
       "pattern_detail": {
         "start_date": "2026-08-10",
-        "end_date": "2026-11-06",
+        "end_date": "2026-11-09",
         "key_points": [
           {
             "date": "2026-08-10",
@@ -20067,18 +19668,14 @@
             "label": "handle_low"
           },
           {
-            "date": "2026-11-06",
-            "price": 3800.0,
+            "date": "2026-11-09",
+            "price": 3929.0,
             "label": "breakout"
           }
         ]
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6241.0
-        },
         {
           "date": "2026-06-26",
           "close": 3194.0
@@ -20434,410 +20031,10 @@
         {
           "date": "2026-11-06",
           "close": 3800.0
-        }
-      ]
-    },
-    {
-      "ticker": "4523.T",
-      "name": "エーザイ",
-      "pattern": "cup_with_handle",
-      "pattern_name_ja": "カップウィズハンドル",
-      "win_rate": 84,
-      "direction": "buy",
-      "current_price": 4858.0,
-      "signal_price": 4839.0,
-      "pattern_detail": {
-        "start_date": "2026-05-15",
-        "end_date": "2026-10-27",
-        "key_points": [
-          {
-            "date": "2026-05-15",
-            "price": 4723.0,
-            "label": "left_rim"
-          },
-          {
-            "date": "2026-06-11",
-            "price": 3723.0,
-            "label": "cup_bottom"
-          },
-          {
-            "date": "2026-09-25",
-            "price": 4955.0,
-            "label": "right_rim"
-          },
-          {
-            "date": "2026-10-09",
-            "price": 4603.0,
-            "label": "handle_low"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 5102.0,
-            "label": "breakout"
-          }
-        ]
-      },
-      "confidence": "high",
-      "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3949.0
-        },
-        {
-          "date": "2026-06-26",
-          "close": 3991.0
-        },
-        {
-          "date": "2026-06-29",
-          "close": 4145.0
-        },
-        {
-          "date": "2026-06-30",
-          "close": 4119.0
-        },
-        {
-          "date": "2026-07-01",
-          "close": 4109.0
-        },
-        {
-          "date": "2026-07-02",
-          "close": 4188.0
-        },
-        {
-          "date": "2026-07-03",
-          "close": 4255.0
-        },
-        {
-          "date": "2026-07-06",
-          "close": 4340.0
-        },
-        {
-          "date": "2026-07-07",
-          "close": 4305.0
-        },
-        {
-          "date": "2026-07-08",
-          "close": 4318.0
-        },
-        {
-          "date": "2026-07-09",
-          "close": 4286.0
-        },
-        {
-          "date": "2026-07-10",
-          "close": 4296.0
-        },
-        {
-          "date": "2026-07-13",
-          "close": 4243.0
-        },
-        {
-          "date": "2026-07-14",
-          "close": 4376.0
-        },
-        {
-          "date": "2026-07-15",
-          "close": 4256.0
-        },
-        {
-          "date": "2026-07-16",
-          "close": 4338.0
-        },
-        {
-          "date": "2026-07-17",
-          "close": 4450.0
-        },
-        {
-          "date": "2026-07-21",
-          "close": 4482.0
-        },
-        {
-          "date": "2026-07-22",
-          "close": 4550.0
-        },
-        {
-          "date": "2026-07-23",
-          "close": 4582.0
-        },
-        {
-          "date": "2026-07-24",
-          "close": 4656.0
-        },
-        {
-          "date": "2026-07-27",
-          "close": 4753.0
-        },
-        {
-          "date": "2026-07-28",
-          "close": 4791.0
-        },
-        {
-          "date": "2026-07-29",
-          "close": 5110.0
-        },
-        {
-          "date": "2026-07-30",
-          "close": 5031.0
-        },
-        {
-          "date": "2026-07-31",
-          "close": 4828.0
-        },
-        {
-          "date": "2026-08-03",
-          "close": 4656.0
-        },
-        {
-          "date": "2026-08-04",
-          "close": 4623.0
-        },
-        {
-          "date": "2026-08-05",
-          "close": 4520.0
-        },
-        {
-          "date": "2026-08-06",
-          "close": 4691.0
-        },
-        {
-          "date": "2026-08-07",
-          "close": 4778.0
-        },
-        {
-          "date": "2026-08-10",
-          "close": 4949.0
-        },
-        {
-          "date": "2026-08-12",
-          "close": 4988.0
-        },
-        {
-          "date": "2026-08-13",
-          "close": 4872.0
-        },
-        {
-          "date": "2026-08-14",
-          "close": 4858.0
-        },
-        {
-          "date": "2026-08-17",
-          "close": 4729.0
-        },
-        {
-          "date": "2026-08-18",
-          "close": 4779.0
-        },
-        {
-          "date": "2026-08-19",
-          "close": 4837.0
-        },
-        {
-          "date": "2026-08-20",
-          "close": 4962.0
-        },
-        {
-          "date": "2026-08-21",
-          "close": 4902.0
-        },
-        {
-          "date": "2026-08-24",
-          "close": 4838.0
-        },
-        {
-          "date": "2026-08-25",
-          "close": 4861.0
-        },
-        {
-          "date": "2026-08-26",
-          "close": 4833.0
-        },
-        {
-          "date": "2026-08-27",
-          "close": 4820.0
-        },
-        {
-          "date": "2026-08-28",
-          "close": 4824.0
-        },
-        {
-          "date": "2026-08-31",
-          "close": 4740.0
-        },
-        {
-          "date": "2026-09-01",
-          "close": 4756.0
-        },
-        {
-          "date": "2026-09-02",
-          "close": 4732.0
-        },
-        {
-          "date": "2026-09-03",
-          "close": 4811.0
-        },
-        {
-          "date": "2026-09-04",
-          "close": 4694.0
-        },
-        {
-          "date": "2026-09-07",
-          "close": 4633.0
-        },
-        {
-          "date": "2026-09-08",
-          "close": 4652.0
-        },
-        {
-          "date": "2026-09-09",
-          "close": 4620.0
-        },
-        {
-          "date": "2026-09-10",
-          "close": 4668.0
-        },
-        {
-          "date": "2026-09-11",
-          "close": 4658.0
-        },
-        {
-          "date": "2026-09-14",
-          "close": 4743.0
-        },
-        {
-          "date": "2026-09-15",
-          "close": 4767.0
-        },
-        {
-          "date": "2026-09-16",
-          "close": 4785.0
-        },
-        {
-          "date": "2026-09-17",
-          "close": 4953.0
-        },
-        {
-          "date": "2026-09-18",
-          "close": 4930.0
-        },
-        {
-          "date": "2026-09-24",
-          "close": 4902.0
-        },
-        {
-          "date": "2026-09-25",
-          "close": 4955.0
-        },
-        {
-          "date": "2026-09-28",
-          "close": 4841.0
-        },
-        {
-          "date": "2026-09-29",
-          "close": 4811.0
-        },
-        {
-          "date": "2026-09-30",
-          "close": 4855.0
-        },
-        {
-          "date": "2026-10-01",
-          "close": 4833.0
-        },
-        {
-          "date": "2026-10-02",
-          "close": 4700.0
-        },
-        {
-          "date": "2026-10-05",
-          "close": 4659.0
-        },
-        {
-          "date": "2026-10-06",
-          "close": 4676.0
-        },
-        {
-          "date": "2026-10-07",
-          "close": 4640.0
-        },
-        {
-          "date": "2026-10-08",
-          "close": 4631.0
-        },
-        {
-          "date": "2026-10-09",
-          "close": 4603.0
-        },
-        {
-          "date": "2026-10-13",
-          "close": 4655.0
-        },
-        {
-          "date": "2026-10-14",
-          "close": 4692.0
-        },
-        {
-          "date": "2026-10-15",
-          "close": 4868.0
-        },
-        {
-          "date": "2026-10-16",
-          "close": 4920.0
-        },
-        {
-          "date": "2026-10-19",
-          "close": 4937.0
-        },
-        {
-          "date": "2026-10-20",
-          "close": 4982.0
-        },
-        {
-          "date": "2026-10-21",
-          "close": 5047.0
-        },
-        {
-          "date": "2026-10-22",
-          "close": 5055.0
-        },
-        {
-          "date": "2026-10-23",
-          "close": 5076.0
-        },
-        {
-          "date": "2026-10-26",
-          "close": 5098.0
-        },
-        {
-          "date": "2026-10-27",
-          "close": 5102.0
-        },
-        {
-          "date": "2026-10-28",
-          "close": 5069.0
-        },
-        {
-          "date": "2026-10-29",
-          "close": 4974.0
-        },
-        {
-          "date": "2026-10-30",
-          "close": 5052.0
-        },
-        {
-          "date": "2026-11-02",
-          "close": 5016.0
-        },
-        {
-          "date": "2026-11-04",
-          "close": 4977.0
-        },
-        {
-          "date": "2026-11-05",
-          "close": 5280.0
         },
         {
-          "date": "2026-11-06",
-          "close": 4858.0
+          "date": "2026-11-09",
+          "close": 3929.0
         }
       ]
     },
@@ -20848,11 +20045,11 @@
       "pattern_name_ja": "カップウィズハンドル",
       "win_rate": 84,
       "direction": "buy",
-      "current_price": 2196.5,
+      "current_price": 2297.5,
       "signal_price": 2131.25,
       "pattern_detail": {
         "start_date": "2026-07-06",
-        "end_date": "2026-11-06",
+        "end_date": "2026-11-09",
         "key_points": [
           {
             "date": "2026-07-06",
@@ -20875,18 +20072,14 @@
             "label": "handle_low"
           },
           {
-            "date": "2026-11-06",
-            "price": 2196.5,
+            "date": "2026-11-09",
+            "price": 2297.5,
             "label": "breakout"
           }
         ]
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1936.5
-        },
         {
           "date": "2026-06-26",
           "close": 1963.5
@@ -21242,410 +20435,10 @@
         {
           "date": "2026-11-06",
           "close": 2196.5
-        }
-      ]
-    },
-    {
-      "ticker": "9147.T",
-      "name": "NXHD",
-      "pattern": "cup_with_handle",
-      "pattern_name_ja": "カップウィズハンドル",
-      "win_rate": 84,
-      "direction": "buy",
-      "current_price": 5498.0,
-      "signal_price": 5690.5,
-      "pattern_detail": {
-        "start_date": "2026-07-15",
-        "end_date": "2026-10-27",
-        "key_points": [
-          {
-            "date": "2026-07-15",
-            "price": 5588.0,
-            "label": "left_rim"
-          },
-          {
-            "date": "2026-08-06",
-            "price": 5080.0,
-            "label": "cup_bottom"
-          },
-          {
-            "date": "2026-09-25",
-            "price": 5793.0,
-            "label": "right_rim"
-          },
-          {
-            "date": "2026-10-08",
-            "price": 5581.0,
-            "label": "handle_low"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 5912.0,
-            "label": "breakout"
-          }
-        ]
-      },
-      "confidence": "low",
-      "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4967.0
-        },
-        {
-          "date": "2026-06-26",
-          "close": 4995.0
-        },
-        {
-          "date": "2026-06-29",
-          "close": 5016.0
-        },
-        {
-          "date": "2026-06-30",
-          "close": 5044.0
-        },
-        {
-          "date": "2026-07-01",
-          "close": 5044.0
-        },
-        {
-          "date": "2026-07-02",
-          "close": 5186.0
-        },
-        {
-          "date": "2026-07-03",
-          "close": 5426.0
-        },
-        {
-          "date": "2026-07-06",
-          "close": 5552.0
-        },
-        {
-          "date": "2026-07-07",
-          "close": 5479.0
-        },
-        {
-          "date": "2026-07-08",
-          "close": 5479.0
-        },
-        {
-          "date": "2026-07-09",
-          "close": 5443.0
-        },
-        {
-          "date": "2026-07-10",
-          "close": 5323.0
-        },
-        {
-          "date": "2026-07-13",
-          "close": 5323.0
-        },
-        {
-          "date": "2026-07-14",
-          "close": 5418.0
-        },
-        {
-          "date": "2026-07-15",
-          "close": 5588.0
-        },
-        {
-          "date": "2026-07-16",
-          "close": 5428.0
-        },
-        {
-          "date": "2026-07-17",
-          "close": 5385.0
-        },
-        {
-          "date": "2026-07-21",
-          "close": 5545.0
-        },
-        {
-          "date": "2026-07-22",
-          "close": 5521.0
-        },
-        {
-          "date": "2026-07-23",
-          "close": 5491.0
-        },
-        {
-          "date": "2026-07-24",
-          "close": 5493.0
-        },
-        {
-          "date": "2026-07-27",
-          "close": 5540.0
-        },
-        {
-          "date": "2026-07-28",
-          "close": 5367.0
-        },
-        {
-          "date": "2026-07-29",
-          "close": 5372.0
-        },
-        {
-          "date": "2026-07-30",
-          "close": 5272.0
-        },
-        {
-          "date": "2026-07-31",
-          "close": 5278.0
-        },
-        {
-          "date": "2026-08-03",
-          "close": 5179.0
-        },
-        {
-          "date": "2026-08-04",
-          "close": 5146.0
-        },
-        {
-          "date": "2026-08-05",
-          "close": 5161.0
-        },
-        {
-          "date": "2026-08-06",
-          "close": 5080.0
-        },
-        {
-          "date": "2026-08-07",
-          "close": 5200.0
-        },
-        {
-          "date": "2026-08-10",
-          "close": 5575.0
-        },
-        {
-          "date": "2026-08-12",
-          "close": 5668.0
-        },
-        {
-          "date": "2026-08-13",
-          "close": 5592.0
-        },
-        {
-          "date": "2026-08-14",
-          "close": 5684.0
-        },
-        {
-          "date": "2026-08-17",
-          "close": 5614.0
-        },
-        {
-          "date": "2026-08-18",
-          "close": 5636.0
-        },
-        {
-          "date": "2026-08-19",
-          "close": 5516.0
-        },
-        {
-          "date": "2026-08-20",
-          "close": 5441.0
-        },
-        {
-          "date": "2026-08-21",
-          "close": 5559.0
-        },
-        {
-          "date": "2026-08-24",
-          "close": 5713.0
-        },
-        {
-          "date": "2026-08-25",
-          "close": 5713.0
-        },
-        {
-          "date": "2026-08-26",
-          "close": 5734.0
-        },
-        {
-          "date": "2026-08-27",
-          "close": 5735.0
-        },
-        {
-          "date": "2026-08-28",
-          "close": 5735.0
-        },
-        {
-          "date": "2026-08-31",
-          "close": 5773.0
-        },
-        {
-          "date": "2026-09-01",
-          "close": 5866.0
-        },
-        {
-          "date": "2026-09-02",
-          "close": 5590.0
-        },
-        {
-          "date": "2026-09-03",
-          "close": 5574.0
-        },
-        {
-          "date": "2026-09-04",
-          "close": 5612.0
-        },
-        {
-          "date": "2026-09-07",
-          "close": 5634.0
-        },
-        {
-          "date": "2026-09-08",
-          "close": 5399.0
-        },
-        {
-          "date": "2026-09-09",
-          "close": 5291.0
-        },
-        {
-          "date": "2026-09-10",
-          "close": 5328.0
-        },
-        {
-          "date": "2026-09-11",
-          "close": 5402.0
-        },
-        {
-          "date": "2026-09-14",
-          "close": 5435.0
-        },
-        {
-          "date": "2026-09-15",
-          "close": 5481.0
-        },
-        {
-          "date": "2026-09-16",
-          "close": 5497.0
-        },
-        {
-          "date": "2026-09-17",
-          "close": 5623.0
-        },
-        {
-          "date": "2026-09-18",
-          "close": 5662.0
-        },
-        {
-          "date": "2026-09-24",
-          "close": 5656.0
-        },
-        {
-          "date": "2026-09-25",
-          "close": 5793.0
-        },
-        {
-          "date": "2026-09-28",
-          "close": 5769.0
-        },
-        {
-          "date": "2026-09-29",
-          "close": 5676.0
-        },
-        {
-          "date": "2026-09-30",
-          "close": 5775.0
-        },
-        {
-          "date": "2026-10-01",
-          "close": 5749.0
-        },
-        {
-          "date": "2026-10-02",
-          "close": 5672.0
-        },
-        {
-          "date": "2026-10-05",
-          "close": 5744.0
-        },
-        {
-          "date": "2026-10-06",
-          "close": 5730.0
-        },
-        {
-          "date": "2026-10-07",
-          "close": 5590.0
-        },
-        {
-          "date": "2026-10-08",
-          "close": 5581.0
-        },
-        {
-          "date": "2026-10-09",
-          "close": 5618.0
-        },
-        {
-          "date": "2026-10-13",
-          "close": 5772.0
-        },
-        {
-          "date": "2026-10-14",
-          "close": 5845.0
-        },
-        {
-          "date": "2026-10-15",
-          "close": 5900.0
-        },
-        {
-          "date": "2026-10-16",
-          "close": 5970.0
-        },
-        {
-          "date": "2026-10-19",
-          "close": 5841.0
-        },
-        {
-          "date": "2026-10-20",
-          "close": 5756.0
-        },
-        {
-          "date": "2026-10-21",
-          "close": 5852.0
-        },
-        {
-          "date": "2026-10-22",
-          "close": 5922.0
-        },
-        {
-          "date": "2026-10-23",
-          "close": 5828.0
-        },
-        {
-          "date": "2026-10-26",
-          "close": 5866.0
-        },
-        {
-          "date": "2026-10-27",
-          "close": 5912.0
-        },
-        {
-          "date": "2026-10-28",
-          "close": 5957.0
-        },
-        {
-          "date": "2026-10-29",
-          "close": 5816.0
-        },
-        {
-          "date": "2026-10-30",
-          "close": 5939.0
-        },
-        {
-          "date": "2026-11-02",
-          "close": 5850.0
-        },
-        {
-          "date": "2026-11-04",
-          "close": 5816.0
-        },
-        {
-          "date": "2026-11-05",
-          "close": 5854.0
         },
         {
-          "date": "2026-11-06",
-          "close": 5498.0
+          "date": "2026-11-09",
+          "close": 2297.5
         }
       ]
     },
@@ -21656,7 +20449,7 @@
       "pattern_name_ja": "トリプルボトム",
       "win_rate": 82,
       "direction": "buy",
-      "current_price": 2967.0,
+      "current_price": 3121.0,
       "signal_price": 3108.0,
       "pattern_detail": {
         "start_date": "2026-08-05",
@@ -21691,10 +20484,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2815.5
-        },
         {
           "date": "2026-06-26",
           "close": 2822.5
@@ -22050,6 +20839,10 @@
         {
           "date": "2026-11-06",
           "close": 2967.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3121.0
         }
       ]
     },
@@ -22060,7 +20853,7 @@
       "pattern_name_ja": "トリプルボトム",
       "win_rate": 82,
       "direction": "buy",
-      "current_price": 2129.5,
+      "current_price": 2138.0,
       "signal_price": 2228.0,
       "pattern_detail": {
         "start_date": "2026-08-05",
@@ -22095,10 +20888,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2148.0
-        },
         {
           "date": "2026-06-26",
           "close": 2190.0
@@ -22454,6 +21243,10 @@
         {
           "date": "2026-11-06",
           "close": 2129.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2138.0
         }
       ]
     },
@@ -22464,7 +21257,7 @@
       "pattern_name_ja": "トリプルボトム",
       "win_rate": 82,
       "direction": "buy",
-      "current_price": 1690.5,
+      "current_price": 1726.5,
       "signal_price": 1825.0,
       "pattern_detail": {
         "start_date": "2026-06-23",
@@ -22499,10 +21292,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1631.0
-        },
         {
           "date": "2026-06-26",
           "close": 1639.5
@@ -22858,6 +21647,10 @@
         {
           "date": "2026-11-06",
           "close": 1690.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1726.5
         }
       ]
     },
@@ -22868,7 +21661,7 @@
       "pattern_name_ja": "トリプルボトム",
       "win_rate": 82,
       "direction": "buy",
-      "current_price": 3829.0,
+      "current_price": 4005.0,
       "signal_price": 3935.0,
       "pattern_detail": {
         "start_date": "2026-06-04",
@@ -22903,10 +21696,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3343.0
-        },
         {
           "date": "2026-06-26",
           "close": 3386.0
@@ -23262,6 +22051,10 @@
         {
           "date": "2026-11-06",
           "close": 3829.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4005.0
         }
       ]
     },
@@ -23272,7 +22065,7 @@
       "pattern_name_ja": "トリプルボトム",
       "win_rate": 82,
       "direction": "buy",
-      "current_price": 6214.0,
+      "current_price": 6348.0,
       "signal_price": 6450.0,
       "pattern_detail": {
         "start_date": "2026-07-13",
@@ -23307,10 +22100,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6068.0
-        },
         {
           "date": "2026-06-26",
           "close": 6111.0
@@ -23666,6 +22455,10 @@
         {
           "date": "2026-11-06",
           "close": 6214.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 6348.0
         }
       ]
     },
@@ -23676,7 +22469,7 @@
       "pattern_name_ja": "上昇ウェッジ",
       "win_rate": 77,
       "direction": "buy",
-      "current_price": 3759.0,
+      "current_price": 3861.0,
       "signal_price": 3916.085761589403,
       "pattern_detail": {
         "start_date": "2026-06-05",
@@ -23711,10 +22504,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2500.0
-        },
         {
           "date": "2026-06-26",
           "close": 2543.5
@@ -24070,6 +22859,10 @@
         {
           "date": "2026-11-06",
           "close": 3759.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3861.0
         }
       ]
     },
@@ -24080,7 +22873,7 @@
       "pattern_name_ja": "上昇ウェッジ",
       "win_rate": 77,
       "direction": "buy",
-      "current_price": 6214.0,
+      "current_price": 6348.0,
       "signal_price": 6469.851422550053,
       "pattern_detail": {
         "start_date": "2026-07-02",
@@ -24115,10 +22908,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6068.0
-        },
         {
           "date": "2026-06-26",
           "close": 6111.0
@@ -24474,6 +23263,10 @@
         {
           "date": "2026-11-06",
           "close": 6214.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 6348.0
         }
       ]
     }
@@ -24486,7 +23279,7 @@
       "pattern_name_ja": "三尊",
       "win_rate": 95,
       "direction": "sell",
-      "current_price": 4268.0,
+      "current_price": 4430.0,
       "signal_price": 4784.0,
       "pattern_detail": {
         "start_date": "2026-05-14",
@@ -24526,10 +23319,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 5742.0
-        },
         {
           "date": "2026-06-26",
           "close": 5721.0
@@ -24885,6 +23674,10 @@
         {
           "date": "2026-11-06",
           "close": 4268.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4430.0
         }
       ]
     },
@@ -24895,7 +23688,7 @@
       "pattern_name_ja": "三尊",
       "win_rate": 95,
       "direction": "sell",
-      "current_price": 3565.0,
+      "current_price": 3655.0,
       "signal_price": 3811.5,
       "pattern_detail": {
         "start_date": "2026-09-01",
@@ -24935,10 +23728,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 5150.0
-        },
         {
           "date": "2026-06-26",
           "close": 5036.0
@@ -25294,6 +24083,10 @@
         {
           "date": "2026-11-06",
           "close": 3565.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3655.0
         }
       ]
     },
@@ -25304,7 +24097,7 @@
       "pattern_name_ja": "三尊",
       "win_rate": 95,
       "direction": "sell",
-      "current_price": 5801.0,
+      "current_price": 5971.0,
       "signal_price": 6207.0,
       "pattern_detail": {
         "start_date": "2026-05-12",
@@ -25344,10 +24137,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6250.0
-        },
         {
           "date": "2026-06-26",
           "close": 6329.0
@@ -25703,6 +24492,10 @@
         {
           "date": "2026-11-06",
           "close": 5801.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 5971.0
         }
       ]
     },
@@ -25713,7 +24506,7 @@
       "pattern_name_ja": "三尊",
       "win_rate": 95,
       "direction": "sell",
-      "current_price": 28015.0,
+      "current_price": 28375.0,
       "signal_price": 30615.0,
       "pattern_detail": {
         "start_date": "2026-08-17",
@@ -25753,10 +24546,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 35900.0
-        },
         {
           "date": "2026-06-26",
           "close": 32440.0
@@ -26112,6 +24901,10 @@
         {
           "date": "2026-11-06",
           "close": 28015.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 28375.0
         }
       ]
     },
@@ -26122,7 +24915,7 @@
       "pattern_name_ja": "三尊",
       "win_rate": 95,
       "direction": "sell",
-      "current_price": 69750.0,
+      "current_price": 71580.0,
       "signal_price": 75265.0,
       "pattern_detail": {
         "start_date": "2026-07-01",
@@ -26162,10 +24955,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 77370.0
-        },
         {
           "date": "2026-06-26",
           "close": 77100.0
@@ -26521,6 +25310,10 @@
         {
           "date": "2026-11-06",
           "close": 69750.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 71580.0
         }
       ]
     },
@@ -26531,7 +25324,7 @@
       "pattern_name_ja": "三尊",
       "win_rate": 95,
       "direction": "sell",
-      "current_price": 6194.0,
+      "current_price": 6422.0,
       "signal_price": 7036.5,
       "pattern_detail": {
         "start_date": "2026-08-06",
@@ -26571,10 +25364,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6000.0
-        },
         {
           "date": "2026-06-26",
           "close": 5958.0
@@ -26930,6 +25719,10 @@
         {
           "date": "2026-11-06",
           "close": 6194.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 6422.0
         }
       ]
     },
@@ -26940,7 +25733,7 @@
       "pattern_name_ja": "三尊",
       "win_rate": 95,
       "direction": "sell",
-      "current_price": 1450.0,
+      "current_price": 1489.0,
       "signal_price": 1462.75,
       "pattern_detail": {
         "start_date": "2026-08-13",
@@ -26980,10 +25773,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1413.5
-        },
         {
           "date": "2026-06-26",
           "close": 1423.5
@@ -27339,6 +26128,10 @@
         {
           "date": "2026-11-06",
           "close": 1450.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1489.0
         }
       ]
     },
@@ -27349,7 +26142,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 3413.0,
+      "current_price": 3514.0,
       "signal_price": 3611.0,
       "pattern_detail": {
         "start_date": "2026-09-01",
@@ -27379,10 +26172,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3287.0
-        },
         {
           "date": "2026-06-26",
           "close": 3297.0
@@ -27738,6 +26527,10 @@
         {
           "date": "2026-11-06",
           "close": 3413.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3514.0
         }
       ]
     },
@@ -27748,7 +26541,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 4769.0,
+      "current_price": 4916.0,
       "signal_price": 5054.0,
       "pattern_detail": {
         "start_date": "2026-06-18",
@@ -27778,10 +26571,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 5235.0
-        },
         {
           "date": "2026-06-26",
           "close": 5283.0
@@ -28137,6 +26926,10 @@
         {
           "date": "2026-11-06",
           "close": 4769.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4916.0
         }
       ]
     },
@@ -28147,7 +26940,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 473.29998779296875,
+      "current_price": 483.0,
       "signal_price": 482.2000122070313,
       "pattern_detail": {
         "start_date": "2026-05-15",
@@ -28177,10 +26970,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 520.6
-        },
         {
           "date": "2026-06-26",
           "close": 509.3
@@ -28536,6 +27325,10 @@
         {
           "date": "2026-11-06",
           "close": 473.3
+        },
+        {
+          "date": "2026-11-09",
+          "close": 483.0
         }
       ]
     },
@@ -28546,7 +27339,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 1733.0,
+      "current_price": 1586.0,
       "signal_price": 2004.5,
       "pattern_detail": {
         "start_date": "2026-05-26",
@@ -28576,10 +27369,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2187.0
-        },
         {
           "date": "2026-06-26",
           "close": 2156.5
@@ -28935,6 +27724,10 @@
         {
           "date": "2026-11-06",
           "close": 1733.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1586.0
         }
       ]
     },
@@ -28945,7 +27738,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 3138.0,
+      "current_price": 3207.0,
       "signal_price": 3147.0,
       "pattern_detail": {
         "start_date": "2026-07-27",
@@ -28975,10 +27768,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3181.0
-        },
         {
           "date": "2026-06-26",
           "close": 3142.0
@@ -29334,6 +28123,10 @@
         {
           "date": "2026-11-06",
           "close": 3138.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3207.0
         }
       ]
     },
@@ -29344,7 +28137,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 3288.0,
+      "current_price": 3350.0,
       "signal_price": 3314.0,
       "pattern_detail": {
         "start_date": "2026-09-25",
@@ -29374,10 +28167,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3413.0
-        },
         {
           "date": "2026-06-26",
           "close": 3436.0
@@ -29733,6 +28522,10 @@
         {
           "date": "2026-11-06",
           "close": 3288.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3350.0
         }
       ]
     },
@@ -29743,7 +28536,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 1174.0,
+      "current_price": 1224.5,
       "signal_price": 1191.0,
       "pattern_detail": {
         "start_date": "2026-05-15",
@@ -29773,10 +28566,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1191.0
-        },
         {
           "date": "2026-06-26",
           "close": 1214.5
@@ -30132,6 +28921,10 @@
         {
           "date": "2026-11-06",
           "close": 1174.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1224.5
         }
       ]
     },
@@ -30142,7 +28935,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 4540.0,
+      "current_price": 4616.0,
       "signal_price": 4621.0,
       "pattern_detail": {
         "start_date": "2026-08-17",
@@ -30172,10 +28965,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6697.0
-        },
         {
           "date": "2026-06-26",
           "close": 6390.0
@@ -30531,6 +29320,10 @@
         {
           "date": "2026-11-06",
           "close": 4540.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4616.0
         }
       ]
     },
@@ -30541,7 +29334,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 1922.0,
+      "current_price": 1960.0,
       "signal_price": 1972.0,
       "pattern_detail": {
         "start_date": "2026-07-31",
@@ -30571,10 +29364,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1875.0
-        },
         {
           "date": "2026-06-26",
           "close": 1876.0
@@ -30930,6 +29719,10 @@
         {
           "date": "2026-11-06",
           "close": 1922.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1960.0
         }
       ]
     },
@@ -30940,7 +29733,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 3874.0,
+      "current_price": 3920.0,
       "signal_price": 3944.0,
       "pattern_detail": {
         "start_date": "2026-05-13",
@@ -30970,10 +29763,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4424.0
-        },
         {
           "date": "2026-06-26",
           "close": 4363.0
@@ -31329,6 +30118,10 @@
         {
           "date": "2026-11-06",
           "close": 3874.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3920.0
         }
       ]
     },
@@ -31339,7 +30132,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 3775.0,
+      "current_price": 3905.0,
       "signal_price": 3920.0,
       "pattern_detail": {
         "start_date": "2026-05-12",
@@ -31369,10 +30162,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4520.0
-        },
         {
           "date": "2026-06-26",
           "close": 4465.0
@@ -31728,6 +30517,10 @@
         {
           "date": "2026-11-06",
           "close": 3775.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3905.0
         }
       ]
     },
@@ -31738,7 +30531,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 2251.5,
+      "current_price": 2303.0,
       "signal_price": 2307.0,
       "pattern_detail": {
         "start_date": "2026-07-27",
@@ -31768,10 +30561,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2183.5
-        },
         {
           "date": "2026-06-26",
           "close": 2161.0
@@ -32127,6 +30916,10 @@
         {
           "date": "2026-11-06",
           "close": 2251.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2303.0
         }
       ]
     },
@@ -32137,7 +30930,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 5801.0,
+      "current_price": 5971.0,
       "signal_price": 6164.0,
       "pattern_detail": {
         "start_date": "2026-05-12",
@@ -32167,10 +30960,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6250.0
-        },
         {
           "date": "2026-06-26",
           "close": 6329.0
@@ -32526,6 +31315,10 @@
         {
           "date": "2026-11-06",
           "close": 5801.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 5971.0
         }
       ]
     },
@@ -32536,7 +31329,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 4690.0,
+      "current_price": 4964.0,
       "signal_price": 4858.0,
       "pattern_detail": {
         "start_date": "2026-05-12",
@@ -32566,10 +31359,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 5288.0
-        },
         {
           "date": "2026-06-26",
           "close": 5144.0
@@ -32925,6 +31714,10 @@
         {
           "date": "2026-11-06",
           "close": 4690.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4964.0
         }
       ]
     },
@@ -32935,7 +31728,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 4827.0,
+      "current_price": 5024.0,
       "signal_price": 5114.0,
       "pattern_detail": {
         "start_date": "2026-06-15",
@@ -32965,10 +31758,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 5281.0
-        },
         {
           "date": "2026-06-26",
           "close": 5347.0
@@ -33324,6 +32113,10 @@
         {
           "date": "2026-11-06",
           "close": 4827.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 5024.0
         }
       ]
     },
@@ -33334,7 +32127,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 1892.5,
+      "current_price": 1989.0,
       "signal_price": 1968.5,
       "pattern_detail": {
         "start_date": "2026-05-29",
@@ -33364,10 +32157,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2046.0
-        },
         {
           "date": "2026-06-26",
           "close": 2029.0
@@ -33723,6 +32512,10 @@
         {
           "date": "2026-11-06",
           "close": 1892.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1989.0
         }
       ]
     },
@@ -33733,7 +32526,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 4542.0,
+      "current_price": 4702.0,
       "signal_price": 5173.0,
       "pattern_detail": {
         "start_date": "2026-08-14",
@@ -33763,10 +32556,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4554.0
-        },
         {
           "date": "2026-06-26",
           "close": 4478.0
@@ -34122,6 +32911,10 @@
         {
           "date": "2026-11-06",
           "close": 4542.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4702.0
         }
       ]
     },
@@ -34132,7 +32925,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 10685.0,
+      "current_price": 10885.0,
       "signal_price": 12045.0,
       "pattern_detail": {
         "start_date": "2026-06-22",
@@ -34162,10 +32955,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 14290.0
-        },
         {
           "date": "2026-06-26",
           "close": 13680.0
@@ -34521,6 +33310,10 @@
         {
           "date": "2026-11-06",
           "close": 10685.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 10885.0
         }
       ]
     },
@@ -34531,7 +33324,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 4317.0,
+      "current_price": 4479.0,
       "signal_price": 4503.0,
       "pattern_detail": {
         "start_date": "2026-07-30",
@@ -34561,10 +33354,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3757.0
-        },
         {
           "date": "2026-06-26",
           "close": 3795.0
@@ -34920,6 +33709,10 @@
         {
           "date": "2026-11-06",
           "close": 4317.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4479.0
         }
       ]
     },
@@ -34930,7 +33723,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 3218.0,
+      "current_price": 3434.0,
       "signal_price": 3436.0,
       "pattern_detail": {
         "start_date": "2026-07-30",
@@ -34960,10 +33753,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3187.0
-        },
         {
           "date": "2026-06-26",
           "close": 3199.0
@@ -35319,6 +34108,10 @@
         {
           "date": "2026-11-06",
           "close": 3218.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3434.0
         }
       ]
     },
@@ -35329,7 +34122,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 2657.0,
+      "current_price": 2660.5,
       "signal_price": 2972.0,
       "pattern_detail": {
         "start_date": "2026-09-01",
@@ -35359,10 +34152,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2767.5
-        },
         {
           "date": "2026-06-26",
           "close": 2691.5
@@ -35718,6 +34507,10 @@
         {
           "date": "2026-11-06",
           "close": 2657.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2660.5
         }
       ]
     },
@@ -35728,7 +34521,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 3008.0,
+      "current_price": 2974.5,
       "signal_price": 3507.0,
       "pattern_detail": {
         "start_date": "2026-07-01",
@@ -35758,10 +34551,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4610.0
-        },
         {
           "date": "2026-06-26",
           "close": 4540.0
@@ -36117,405 +34906,10 @@
         {
           "date": "2026-11-06",
           "close": 3008.0
-        }
-      ]
-    },
-    {
-      "ticker": "6753.T",
-      "name": "シャープ",
-      "pattern": "double_top",
-      "pattern_name_ja": "ダブルトップ",
-      "win_rate": 93,
-      "direction": "sell",
-      "current_price": 529.0,
-      "signal_price": 573.2000122070312,
-      "pattern_detail": {
-        "start_date": "2026-05-19",
-        "end_date": "2026-10-27",
-        "key_points": [
-          {
-            "date": "2026-05-19",
-            "price": 640.2000122070312,
-            "label": "top_1"
-          },
-          {
-            "date": "2026-06-19",
-            "price": 573.2000122070312,
-            "label": "neckline"
-          },
-          {
-            "date": "2026-07-07",
-            "price": 655.7999877929688,
-            "label": "top_2"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 572.2999877929688,
-            "label": "breakout"
-          }
-        ]
-      },
-      "confidence": "low",
-      "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 601.0
-        },
-        {
-          "date": "2026-06-26",
-          "close": 606.2
-        },
-        {
-          "date": "2026-06-29",
-          "close": 633.2
-        },
-        {
-          "date": "2026-06-30",
-          "close": 651.3
-        },
-        {
-          "date": "2026-07-01",
-          "close": 636.2
-        },
-        {
-          "date": "2026-07-02",
-          "close": 643.6
-        },
-        {
-          "date": "2026-07-03",
-          "close": 639.1
-        },
-        {
-          "date": "2026-07-06",
-          "close": 640.5
-        },
-        {
-          "date": "2026-07-07",
-          "close": 655.8
-        },
-        {
-          "date": "2026-07-08",
-          "close": 643.3
-        },
-        {
-          "date": "2026-07-09",
-          "close": 647.1
-        },
-        {
-          "date": "2026-07-10",
-          "close": 648.3
-        },
-        {
-          "date": "2026-07-13",
-          "close": 637.4
-        },
-        {
-          "date": "2026-07-14",
-          "close": 645.0
-        },
-        {
-          "date": "2026-07-15",
-          "close": 637.0
-        },
-        {
-          "date": "2026-07-16",
-          "close": 634.1
-        },
-        {
-          "date": "2026-07-17",
-          "close": 627.3
-        },
-        {
-          "date": "2026-07-21",
-          "close": 623.8
-        },
-        {
-          "date": "2026-07-22",
-          "close": 622.2
-        },
-        {
-          "date": "2026-07-23",
-          "close": 610.3
-        },
-        {
-          "date": "2026-07-24",
-          "close": 586.8
-        },
-        {
-          "date": "2026-07-27",
-          "close": 608.7
-        },
-        {
-          "date": "2026-07-28",
-          "close": 610.2
-        },
-        {
-          "date": "2026-07-29",
-          "close": 635.6
-        },
-        {
-          "date": "2026-07-30",
-          "close": 632.9
-        },
-        {
-          "date": "2026-07-31",
-          "close": 618.4
-        },
-        {
-          "date": "2026-08-03",
-          "close": 623.1
-        },
-        {
-          "date": "2026-08-04",
-          "close": 617.7
-        },
-        {
-          "date": "2026-08-05",
-          "close": 621.6
-        },
-        {
-          "date": "2026-08-06",
-          "close": 634.9
-        },
-        {
-          "date": "2026-08-07",
-          "close": 642.9
-        },
-        {
-          "date": "2026-08-10",
-          "close": 650.0
-        },
-        {
-          "date": "2026-08-12",
-          "close": 659.3
-        },
-        {
-          "date": "2026-08-13",
-          "close": 653.0
-        },
-        {
-          "date": "2026-08-14",
-          "close": 675.6
-        },
-        {
-          "date": "2026-08-17",
-          "close": 637.5
-        },
-        {
-          "date": "2026-08-18",
-          "close": 616.1
-        },
-        {
-          "date": "2026-08-19",
-          "close": 616.0
-        },
-        {
-          "date": "2026-08-20",
-          "close": 637.4
-        },
-        {
-          "date": "2026-08-21",
-          "close": 641.0
-        },
-        {
-          "date": "2026-08-24",
-          "close": 630.9
-        },
-        {
-          "date": "2026-08-25",
-          "close": 622.7
-        },
-        {
-          "date": "2026-08-26",
-          "close": 640.9
-        },
-        {
-          "date": "2026-08-27",
-          "close": 643.1
-        },
-        {
-          "date": "2026-08-28",
-          "close": 647.7
-        },
-        {
-          "date": "2026-08-31",
-          "close": 663.8
-        },
-        {
-          "date": "2026-09-01",
-          "close": 673.3
-        },
-        {
-          "date": "2026-09-02",
-          "close": 636.2
-        },
-        {
-          "date": "2026-09-03",
-          "close": 641.5
-        },
-        {
-          "date": "2026-09-04",
-          "close": 644.7
-        },
-        {
-          "date": "2026-09-07",
-          "close": 637.4
-        },
-        {
-          "date": "2026-09-08",
-          "close": 625.5
-        },
-        {
-          "date": "2026-09-09",
-          "close": 629.6
-        },
-        {
-          "date": "2026-09-10",
-          "close": 669.2
-        },
-        {
-          "date": "2026-09-11",
-          "close": 678.0
-        },
-        {
-          "date": "2026-09-14",
-          "close": 688.5
-        },
-        {
-          "date": "2026-09-15",
-          "close": 670.8
-        },
-        {
-          "date": "2026-09-16",
-          "close": 677.9
-        },
-        {
-          "date": "2026-09-17",
-          "close": 676.4
-        },
-        {
-          "date": "2026-09-18",
-          "close": 648.8
-        },
-        {
-          "date": "2026-09-24",
-          "close": 656.4
-        },
-        {
-          "date": "2026-09-25",
-          "close": 662.3
-        },
-        {
-          "date": "2026-09-28",
-          "close": 649.6
-        },
-        {
-          "date": "2026-09-29",
-          "close": 641.9
-        },
-        {
-          "date": "2026-09-30",
-          "close": 644.7
-        },
-        {
-          "date": "2026-10-01",
-          "close": 645.5
-        },
-        {
-          "date": "2026-10-02",
-          "close": 638.1
-        },
-        {
-          "date": "2026-10-05",
-          "close": 650.6
-        },
-        {
-          "date": "2026-10-06",
-          "close": 636.5
-        },
-        {
-          "date": "2026-10-07",
-          "close": 630.1
-        },
-        {
-          "date": "2026-10-08",
-          "close": 622.4
-        },
-        {
-          "date": "2026-10-09",
-          "close": 613.7
-        },
-        {
-          "date": "2026-10-13",
-          "close": 586.3
-        },
-        {
-          "date": "2026-10-14",
-          "close": 579.6
-        },
-        {
-          "date": "2026-10-15",
-          "close": 581.5
-        },
-        {
-          "date": "2026-10-16",
-          "close": 597.5
-        },
-        {
-          "date": "2026-10-19",
-          "close": 588.9
-        },
-        {
-          "date": "2026-10-20",
-          "close": 590.6
-        },
-        {
-          "date": "2026-10-21",
-          "close": 594.0
-        },
-        {
-          "date": "2026-10-22",
-          "close": 599.0
-        },
-        {
-          "date": "2026-10-23",
-          "close": 591.9
-        },
-        {
-          "date": "2026-10-26",
-          "close": 587.5
-        },
-        {
-          "date": "2026-10-27",
-          "close": 572.3
-        },
-        {
-          "date": "2026-10-28",
-          "close": 565.3
-        },
-        {
-          "date": "2026-10-29",
-          "close": 550.8
-        },
-        {
-          "date": "2026-10-30",
-          "close": 539.0
-        },
-        {
-          "date": "2026-11-02",
-          "close": 540.0
-        },
-        {
-          "date": "2026-11-04",
-          "close": 527.0
-        },
-        {
-          "date": "2026-11-05",
-          "close": 559.0
         },
         {
-          "date": "2026-11-06",
-          "close": 529.0
+          "date": "2026-11-09",
+          "close": 2974.5
         }
       ]
     },
@@ -36526,7 +34920,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 28015.0,
+      "current_price": 28375.0,
       "signal_price": 30160.0,
       "pattern_detail": {
         "start_date": "2026-08-17",
@@ -36556,10 +34950,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 35900.0
-        },
         {
           "date": "2026-06-26",
           "close": 32440.0
@@ -36915,6 +35305,10 @@
         {
           "date": "2026-11-06",
           "close": 28015.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 28375.0
         }
       ]
     },
@@ -36925,7 +35319,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 32040.0,
+      "current_price": 32480.0,
       "signal_price": 32350.0,
       "pattern_detail": {
         "start_date": "2026-07-15",
@@ -36955,10 +35349,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 53180.0
-        },
         {
           "date": "2026-06-26",
           "close": 49803.0
@@ -37314,6 +35704,10 @@
         {
           "date": "2026-11-06",
           "close": 32040.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 32480.0
         }
       ]
     },
@@ -37324,7 +35718,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 2912.5,
+      "current_price": 3063.0,
       "signal_price": 3494.0,
       "pattern_detail": {
         "start_date": "2026-05-13",
@@ -37354,10 +35748,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3618.0
-        },
         {
           "date": "2026-06-26",
           "close": 3567.0
@@ -37713,6 +36103,10 @@
         {
           "date": "2026-11-06",
           "close": 2912.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3063.0
         }
       ]
     },
@@ -37723,7 +36117,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 2292.0,
+      "current_price": 2396.5,
       "signal_price": 2358.0,
       "pattern_detail": {
         "start_date": "2026-05-26",
@@ -37753,10 +36147,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2719.0
-        },
         {
           "date": "2026-06-26",
           "close": 2672.5
@@ -38112,6 +36502,10 @@
         {
           "date": "2026-11-06",
           "close": 2292.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2396.5
         }
       ]
     },
@@ -38122,7 +36516,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 1668.0,
+      "current_price": 1761.0,
       "signal_price": 1754.0,
       "pattern_detail": {
         "start_date": "2026-09-17",
@@ -38152,10 +36546,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1242.5
-        },
         {
           "date": "2026-06-26",
           "close": 1235.0
@@ -38511,6 +36901,10 @@
         {
           "date": "2026-11-06",
           "close": 1668.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1761.0
         }
       ]
     },
@@ -38521,7 +36915,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 6194.0,
+      "current_price": 6422.0,
       "signal_price": 6969.0,
       "pattern_detail": {
         "start_date": "2026-08-06",
@@ -38551,10 +36945,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6000.0
-        },
         {
           "date": "2026-06-26",
           "close": 5958.0
@@ -38910,6 +37300,10 @@
         {
           "date": "2026-11-06",
           "close": 6194.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 6422.0
         }
       ]
     },
@@ -38920,7 +37314,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 4620.0,
+      "current_price": 4780.0,
       "signal_price": 4700.0,
       "pattern_detail": {
         "start_date": "2026-07-27",
@@ -38950,10 +37344,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4446.0
-        },
         {
           "date": "2026-06-26",
           "close": 4508.0
@@ -39309,6 +37699,10 @@
         {
           "date": "2026-11-06",
           "close": 4620.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4780.0
         }
       ]
     },
@@ -39319,7 +37713,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 1597.0,
+      "current_price": 1638.5,
       "signal_price": 1678.0,
       "pattern_detail": {
         "start_date": "2026-08-14",
@@ -39349,10 +37743,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 6130.0
-        },
         {
           "date": "2026-06-26",
           "close": 1550.2
@@ -39708,6 +38098,10 @@
         {
           "date": "2026-11-06",
           "close": 1597.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1638.5
         }
       ]
     },
@@ -39718,7 +38112,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 3939.0,
+      "current_price": 4081.0,
       "signal_price": 4030.0,
       "pattern_detail": {
         "start_date": "2026-05-13",
@@ -39748,10 +38142,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4260.0
-        },
         {
           "date": "2026-06-26",
           "close": 4296.0
@@ -40107,405 +38497,10 @@
         {
           "date": "2026-11-06",
           "close": 3939.0
-        }
-      ]
-    },
-    {
-      "ticker": "8697.T",
-      "name": "日本取引所G",
-      "pattern": "double_top",
-      "pattern_name_ja": "ダブルトップ",
-      "win_rate": 93,
-      "direction": "sell",
-      "current_price": 2069.5,
-      "signal_price": 2144.0,
-      "pattern_detail": {
-        "start_date": "2026-08-06",
-        "end_date": "2026-10-27",
-        "key_points": [
-          {
-            "date": "2026-08-06",
-            "price": 2294.0,
-            "label": "top_1"
-          },
-          {
-            "date": "2026-09-03",
-            "price": 2144.0,
-            "label": "neckline"
-          },
-          {
-            "date": "2026-09-25",
-            "price": 2333.0,
-            "label": "top_2"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 2088.0,
-            "label": "breakout"
-          }
-        ]
-      },
-      "confidence": "medium",
-      "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2028.0
-        },
-        {
-          "date": "2026-06-26",
-          "close": 2012.0
-        },
-        {
-          "date": "2026-06-29",
-          "close": 2037.0
-        },
-        {
-          "date": "2026-06-30",
-          "close": 2045.0
-        },
-        {
-          "date": "2026-07-01",
-          "close": 2068.5
-        },
-        {
-          "date": "2026-07-02",
-          "close": 2124.5
-        },
-        {
-          "date": "2026-07-03",
-          "close": 2179.0
-        },
-        {
-          "date": "2026-07-06",
-          "close": 2189.0
-        },
-        {
-          "date": "2026-07-07",
-          "close": 2183.0
-        },
-        {
-          "date": "2026-07-08",
-          "close": 2153.0
-        },
-        {
-          "date": "2026-07-09",
-          "close": 2122.0
-        },
-        {
-          "date": "2026-07-10",
-          "close": 2176.5
-        },
-        {
-          "date": "2026-07-13",
-          "close": 2196.5
-        },
-        {
-          "date": "2026-07-14",
-          "close": 2211.5
-        },
-        {
-          "date": "2026-07-15",
-          "close": 2247.5
-        },
-        {
-          "date": "2026-07-16",
-          "close": 2238.0
-        },
-        {
-          "date": "2026-07-17",
-          "close": 2142.0
-        },
-        {
-          "date": "2026-07-21",
-          "close": 2255.5
-        },
-        {
-          "date": "2026-07-22",
-          "close": 2218.0
-        },
-        {
-          "date": "2026-07-23",
-          "close": 2257.0
-        },
-        {
-          "date": "2026-07-24",
-          "close": 2222.0
-        },
-        {
-          "date": "2026-07-27",
-          "close": 2288.5
-        },
-        {
-          "date": "2026-07-28",
-          "close": 2241.0
-        },
-        {
-          "date": "2026-07-29",
-          "close": 2290.0
-        },
-        {
-          "date": "2026-07-30",
-          "close": 2164.0
-        },
-        {
-          "date": "2026-07-31",
-          "close": 2192.5
-        },
-        {
-          "date": "2026-08-03",
-          "close": 2173.5
-        },
-        {
-          "date": "2026-08-04",
-          "close": 2194.0
-        },
-        {
-          "date": "2026-08-05",
-          "close": 2292.0
-        },
-        {
-          "date": "2026-08-06",
-          "close": 2294.0
-        },
-        {
-          "date": "2026-08-07",
-          "close": 2264.0
-        },
-        {
-          "date": "2026-08-10",
-          "close": 2260.0
-        },
-        {
-          "date": "2026-08-12",
-          "close": 2252.0
-        },
-        {
-          "date": "2026-08-13",
-          "close": 2289.0
-        },
-        {
-          "date": "2026-08-14",
-          "close": 2244.0
-        },
-        {
-          "date": "2026-08-17",
-          "close": 2221.5
-        },
-        {
-          "date": "2026-08-18",
-          "close": 2191.5
-        },
-        {
-          "date": "2026-08-19",
-          "close": 2193.0
-        },
-        {
-          "date": "2026-08-20",
-          "close": 2224.5
-        },
-        {
-          "date": "2026-08-21",
-          "close": 2238.0
-        },
-        {
-          "date": "2026-08-24",
-          "close": 2238.5
-        },
-        {
-          "date": "2026-08-25",
-          "close": 2262.5
-        },
-        {
-          "date": "2026-08-26",
-          "close": 2288.5
-        },
-        {
-          "date": "2026-08-27",
-          "close": 2284.5
-        },
-        {
-          "date": "2026-08-28",
-          "close": 2293.0
-        },
-        {
-          "date": "2026-08-31",
-          "close": 2250.0
-        },
-        {
-          "date": "2026-09-01",
-          "close": 2216.5
-        },
-        {
-          "date": "2026-09-02",
-          "close": 2145.5
-        },
-        {
-          "date": "2026-09-03",
-          "close": 2144.0
-        },
-        {
-          "date": "2026-09-04",
-          "close": 2239.0
-        },
-        {
-          "date": "2026-09-07",
-          "close": 2233.5
-        },
-        {
-          "date": "2026-09-08",
-          "close": 2203.5
-        },
-        {
-          "date": "2026-09-09",
-          "close": 2200.0
-        },
-        {
-          "date": "2026-09-10",
-          "close": 2226.0
-        },
-        {
-          "date": "2026-09-11",
-          "close": 2210.5
-        },
-        {
-          "date": "2026-09-14",
-          "close": 2215.5
-        },
-        {
-          "date": "2026-09-15",
-          "close": 2197.5
-        },
-        {
-          "date": "2026-09-16",
-          "close": 2211.0
-        },
-        {
-          "date": "2026-09-17",
-          "close": 2252.5
-        },
-        {
-          "date": "2026-09-18",
-          "close": 2235.5
-        },
-        {
-          "date": "2026-09-24",
-          "close": 2274.0
-        },
-        {
-          "date": "2026-09-25",
-          "close": 2333.0
-        },
-        {
-          "date": "2026-09-28",
-          "close": 2268.5
-        },
-        {
-          "date": "2026-09-29",
-          "close": 2250.0
-        },
-        {
-          "date": "2026-09-30",
-          "close": 2297.5
-        },
-        {
-          "date": "2026-10-01",
-          "close": 2327.0
-        },
-        {
-          "date": "2026-10-02",
-          "close": 2304.0
-        },
-        {
-          "date": "2026-10-05",
-          "close": 2289.0
-        },
-        {
-          "date": "2026-10-06",
-          "close": 2309.0
-        },
-        {
-          "date": "2026-10-07",
-          "close": 2281.0
-        },
-        {
-          "date": "2026-10-08",
-          "close": 2251.5
-        },
-        {
-          "date": "2026-10-09",
-          "close": 2270.0
-        },
-        {
-          "date": "2026-10-13",
-          "close": 2257.5
-        },
-        {
-          "date": "2026-10-14",
-          "close": 2189.0
-        },
-        {
-          "date": "2026-10-15",
-          "close": 2199.0
-        },
-        {
-          "date": "2026-10-16",
-          "close": 2219.0
-        },
-        {
-          "date": "2026-10-19",
-          "close": 2242.5
-        },
-        {
-          "date": "2026-10-20",
-          "close": 2164.0
-        },
-        {
-          "date": "2026-10-21",
-          "close": 2225.0
-        },
-        {
-          "date": "2026-10-22",
-          "close": 2225.0
-        },
-        {
-          "date": "2026-10-23",
-          "close": 2218.5
-        },
-        {
-          "date": "2026-10-26",
-          "close": 2194.0
-        },
-        {
-          "date": "2026-10-27",
-          "close": 2088.0
-        },
-        {
-          "date": "2026-10-28",
-          "close": 2084.5
-        },
-        {
-          "date": "2026-10-29",
-          "close": 2116.0
-        },
-        {
-          "date": "2026-10-30",
-          "close": 2116.5
-        },
-        {
-          "date": "2026-11-02",
-          "close": 2101.5
-        },
-        {
-          "date": "2026-11-04",
-          "close": 2103.0
-        },
-        {
-          "date": "2026-11-05",
-          "close": 2186.5
         },
         {
-          "date": "2026-11-06",
-          "close": 2069.5
+          "date": "2026-11-09",
+          "close": 4081.0
         }
       ]
     },
@@ -40516,7 +38511,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 1706.0,
+      "current_price": 1763.5,
       "signal_price": 1767.5,
       "pattern_detail": {
         "start_date": "2026-07-27",
@@ -40546,10 +38541,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 1705.5
-        },
         {
           "date": "2026-06-26",
           "close": 1726.5
@@ -40905,6 +38896,10 @@
         {
           "date": "2026-11-06",
           "close": 1706.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 1763.5
         }
       ]
     },
@@ -40915,7 +38910,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 4602.0,
+      "current_price": 4792.0,
       "signal_price": 4627.0,
       "pattern_detail": {
         "start_date": "2026-06-22",
@@ -40945,10 +38940,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4690.0
-        },
         {
           "date": "2026-06-26",
           "close": 4682.0
@@ -41304,6 +39295,10 @@
         {
           "date": "2026-11-06",
           "close": 4602.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4792.0
         }
       ]
     },
@@ -41314,7 +39309,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 6635.0,
+      "current_price": 6543.0,
       "signal_price": 7076.0,
       "pattern_detail": {
         "start_date": "2026-09-07",
@@ -41344,10 +39339,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 5271.0
-        },
         {
           "date": "2026-06-26",
           "close": 5265.0
@@ -41703,6 +39694,10 @@
         {
           "date": "2026-11-06",
           "close": 6635.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 6543.0
         }
       ]
     },
@@ -41713,7 +39708,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 2998.5,
+      "current_price": 3005.0,
       "signal_price": 3238.0,
       "pattern_detail": {
         "start_date": "2026-08-24",
@@ -41743,10 +39738,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2447.0
-        },
         {
           "date": "2026-06-26",
           "close": 2459.0
@@ -42102,6 +40093,10 @@
         {
           "date": "2026-11-06",
           "close": 2998.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3005.0
         }
       ]
     },
@@ -42112,7 +40107,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 5498.0,
+      "current_price": 5542.0,
       "signal_price": 5581.0,
       "pattern_detail": {
         "start_date": "2026-09-25",
@@ -42142,10 +40137,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4967.0
-        },
         {
           "date": "2026-06-26",
           "close": 4995.0
@@ -42501,6 +40492,10 @@
         {
           "date": "2026-11-06",
           "close": 5498.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 5542.0
         }
       ]
     },
@@ -42511,7 +40506,7 @@
       "pattern_name_ja": "ダブルトップ",
       "win_rate": 93,
       "direction": "sell",
-      "current_price": 160.1999969482422,
+      "current_price": 165.1999969482422,
       "signal_price": 168.8000030517578,
       "pattern_detail": {
         "start_date": "2026-09-01",
@@ -42541,10 +40536,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 143.8
-        },
         {
           "date": "2026-06-26",
           "close": 144.3
@@ -42900,6 +40891,10 @@
         {
           "date": "2026-11-06",
           "close": 160.2
+        },
+        {
+          "date": "2026-11-09",
+          "close": 165.2
         }
       ]
     },
@@ -42910,7 +40905,7 @@
       "pattern_name_ja": "スパイクトップ",
       "win_rate": 90,
       "direction": "sell",
-      "current_price": 2767.0,
+      "current_price": 2847.0,
       "signal_price": 2580.0,
       "pattern_detail": {
         "start_date": "2026-10-14",
@@ -42935,10 +40930,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2566.5
-        },
         {
           "date": "2026-06-26",
           "close": 2535.5
@@ -43294,6 +41285,10 @@
         {
           "date": "2026-11-06",
           "close": 2767.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2847.0
         }
       ]
     },
@@ -43304,7 +41299,7 @@
       "pattern_name_ja": "トリプルトップ",
       "win_rate": 84,
       "direction": "sell",
-      "current_price": 2251.5,
+      "current_price": 2303.0,
       "signal_price": 2307.0,
       "pattern_detail": {
         "start_date": "2026-07-27",
@@ -43339,10 +41334,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 2183.5
-        },
         {
           "date": "2026-06-26",
           "close": 2161.0
@@ -43698,6 +41689,10 @@
         {
           "date": "2026-11-06",
           "close": 2251.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2303.0
         }
       ]
     },
@@ -43708,7 +41703,7 @@
       "pattern_name_ja": "トリプルトップ",
       "win_rate": 84,
       "direction": "sell",
-      "current_price": 4602.0,
+      "current_price": 4792.0,
       "signal_price": 4689.0,
       "pattern_detail": {
         "start_date": "2026-07-27",
@@ -43743,10 +41738,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4690.0
-        },
         {
           "date": "2026-06-26",
           "close": 4682.0
@@ -44102,6 +42093,10 @@
         {
           "date": "2026-11-06",
           "close": 4602.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4792.0
         }
       ]
     },
@@ -44112,7 +42107,7 @@
       "pattern_name_ja": "逆V字",
       "win_rate": 81,
       "direction": "sell",
-      "current_price": 10530.0,
+      "current_price": 10960.0,
       "signal_price": 13985.0,
       "pattern_detail": {
         "start_date": "2026-09-11",
@@ -44137,10 +42132,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 17770.0
-        },
         {
           "date": "2026-06-26",
           "close": 17330.0
@@ -44496,6 +42487,404 @@
         {
           "date": "2026-11-06",
           "close": 10530.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 10960.0
+        }
+      ]
+    },
+    {
+      "ticker": "4021.T",
+      "name": "日産化学",
+      "pattern": "inverse_v",
+      "pattern_name_ja": "逆V字",
+      "win_rate": 81,
+      "direction": "sell",
+      "current_price": 6948.0,
+      "signal_price": 7672.0,
+      "pattern_detail": {
+        "start_date": "2026-09-15",
+        "end_date": "2026-11-02",
+        "key_points": [
+          {
+            "date": "2026-09-15",
+            "price": 7964.0,
+            "label": "rise_start"
+          },
+          {
+            "date": "2026-10-09",
+            "price": 9090.0,
+            "label": "peak"
+          },
+          {
+            "date": "2026-11-02",
+            "price": 7672.0,
+            "label": "fall_end"
+          }
+        ]
+      },
+      "confidence": "medium",
+      "ohlcv": [
+        {
+          "date": "2026-06-26",
+          "close": 8381.0
+        },
+        {
+          "date": "2026-06-29",
+          "close": 8380.0
+        },
+        {
+          "date": "2026-06-30",
+          "close": 8473.0
+        },
+        {
+          "date": "2026-07-01",
+          "close": 8492.0
+        },
+        {
+          "date": "2026-07-02",
+          "close": 8492.0
+        },
+        {
+          "date": "2026-07-03",
+          "close": 8627.0
+        },
+        {
+          "date": "2026-07-06",
+          "close": 8647.0
+        },
+        {
+          "date": "2026-07-07",
+          "close": 8365.0
+        },
+        {
+          "date": "2026-07-08",
+          "close": 8187.0
+        },
+        {
+          "date": "2026-07-09",
+          "close": 8158.0
+        },
+        {
+          "date": "2026-07-10",
+          "close": 8100.0
+        },
+        {
+          "date": "2026-07-13",
+          "close": 7906.0
+        },
+        {
+          "date": "2026-07-14",
+          "close": 8047.0
+        },
+        {
+          "date": "2026-07-15",
+          "close": 8031.0
+        },
+        {
+          "date": "2026-07-16",
+          "close": 7884.0
+        },
+        {
+          "date": "2026-07-17",
+          "close": 7608.0
+        },
+        {
+          "date": "2026-07-21",
+          "close": 7914.0
+        },
+        {
+          "date": "2026-07-22",
+          "close": 7882.0
+        },
+        {
+          "date": "2026-07-23",
+          "close": 7836.0
+        },
+        {
+          "date": "2026-07-24",
+          "close": 7621.0
+        },
+        {
+          "date": "2026-07-27",
+          "close": 7754.0
+        },
+        {
+          "date": "2026-07-28",
+          "close": 7419.0
+        },
+        {
+          "date": "2026-07-29",
+          "close": 7373.0
+        },
+        {
+          "date": "2026-07-30",
+          "close": 7311.0
+        },
+        {
+          "date": "2026-07-31",
+          "close": 7503.0
+        },
+        {
+          "date": "2026-08-03",
+          "close": 7433.0
+        },
+        {
+          "date": "2026-08-04",
+          "close": 7580.0
+        },
+        {
+          "date": "2026-08-05",
+          "close": 7743.0
+        },
+        {
+          "date": "2026-08-06",
+          "close": 7563.0
+        },
+        {
+          "date": "2026-08-07",
+          "close": 7495.0
+        },
+        {
+          "date": "2026-08-10",
+          "close": 7837.0
+        },
+        {
+          "date": "2026-08-12",
+          "close": 7923.0
+        },
+        {
+          "date": "2026-08-13",
+          "close": 8043.0
+        },
+        {
+          "date": "2026-08-14",
+          "close": 7976.0
+        },
+        {
+          "date": "2026-08-17",
+          "close": 8158.0
+        },
+        {
+          "date": "2026-08-18",
+          "close": 8059.0
+        },
+        {
+          "date": "2026-08-19",
+          "close": 7762.0
+        },
+        {
+          "date": "2026-08-20",
+          "close": 8162.0
+        },
+        {
+          "date": "2026-08-21",
+          "close": 7978.0
+        },
+        {
+          "date": "2026-08-24",
+          "close": 8069.0
+        },
+        {
+          "date": "2026-08-25",
+          "close": 8185.0
+        },
+        {
+          "date": "2026-08-26",
+          "close": 8168.0
+        },
+        {
+          "date": "2026-08-27",
+          "close": 8053.0
+        },
+        {
+          "date": "2026-08-28",
+          "close": 8130.0
+        },
+        {
+          "date": "2026-08-31",
+          "close": 8219.0
+        },
+        {
+          "date": "2026-09-01",
+          "close": 8325.0
+        },
+        {
+          "date": "2026-09-02",
+          "close": 7968.0
+        },
+        {
+          "date": "2026-09-03",
+          "close": 7994.0
+        },
+        {
+          "date": "2026-09-04",
+          "close": 7902.0
+        },
+        {
+          "date": "2026-09-07",
+          "close": 7954.0
+        },
+        {
+          "date": "2026-09-08",
+          "close": 7822.0
+        },
+        {
+          "date": "2026-09-09",
+          "close": 8002.0
+        },
+        {
+          "date": "2026-09-10",
+          "close": 7946.0
+        },
+        {
+          "date": "2026-09-11",
+          "close": 7878.0
+        },
+        {
+          "date": "2026-09-14",
+          "close": 7834.0
+        },
+        {
+          "date": "2026-09-15",
+          "close": 7964.0
+        },
+        {
+          "date": "2026-09-16",
+          "close": 8140.0
+        },
+        {
+          "date": "2026-09-17",
+          "close": 8197.0
+        },
+        {
+          "date": "2026-09-18",
+          "close": 8257.0
+        },
+        {
+          "date": "2026-09-24",
+          "close": 8291.0
+        },
+        {
+          "date": "2026-09-25",
+          "close": 8341.0
+        },
+        {
+          "date": "2026-09-28",
+          "close": 8156.0
+        },
+        {
+          "date": "2026-09-29",
+          "close": 8191.0
+        },
+        {
+          "date": "2026-09-30",
+          "close": 8336.0
+        },
+        {
+          "date": "2026-10-01",
+          "close": 8454.0
+        },
+        {
+          "date": "2026-10-02",
+          "close": 8392.0
+        },
+        {
+          "date": "2026-10-05",
+          "close": 8734.0
+        },
+        {
+          "date": "2026-10-06",
+          "close": 8879.0
+        },
+        {
+          "date": "2026-10-07",
+          "close": 9045.0
+        },
+        {
+          "date": "2026-10-08",
+          "close": 9020.0
+        },
+        {
+          "date": "2026-10-09",
+          "close": 9090.0
+        },
+        {
+          "date": "2026-10-13",
+          "close": 8996.0
+        },
+        {
+          "date": "2026-10-14",
+          "close": 8955.0
+        },
+        {
+          "date": "2026-10-15",
+          "close": 8609.0
+        },
+        {
+          "date": "2026-10-16",
+          "close": 8542.0
+        },
+        {
+          "date": "2026-10-19",
+          "close": 8509.0
+        },
+        {
+          "date": "2026-10-20",
+          "close": 8202.0
+        },
+        {
+          "date": "2026-10-21",
+          "close": 8259.0
+        },
+        {
+          "date": "2026-10-22",
+          "close": 8028.0
+        },
+        {
+          "date": "2026-10-23",
+          "close": 8122.0
+        },
+        {
+          "date": "2026-10-26",
+          "close": 8103.0
+        },
+        {
+          "date": "2026-10-27",
+          "close": 8164.0
+        },
+        {
+          "date": "2026-10-28",
+          "close": 8255.0
+        },
+        {
+          "date": "2026-10-29",
+          "close": 8063.0
+        },
+        {
+          "date": "2026-10-30",
+          "close": 7803.0
+        },
+        {
+          "date": "2026-11-02",
+          "close": 7672.0
+        },
+        {
+          "date": "2026-11-04",
+          "close": 7399.0
+        },
+        {
+          "date": "2026-11-05",
+          "close": 7289.0
+        },
+        {
+          "date": "2026-11-06",
+          "close": 6763.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 6948.0
         }
       ]
     },
@@ -44506,7 +42895,7 @@
       "pattern_name_ja": "逆V字",
       "win_rate": 81,
       "direction": "sell",
-      "current_price": 1360.0,
+      "current_price": 1435.5,
       "signal_price": 1861.5,
       "pattern_detail": {
         "start_date": "2026-09-10",
@@ -44531,10 +42920,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 12240.0
-        },
         {
           "date": "2026-06-26",
           "close": 2983.8
@@ -44890,400 +43275,10 @@
         {
           "date": "2026-11-06",
           "close": 1360.0
-        }
-      ]
-    },
-    {
-      "ticker": "6113.T",
-      "name": "アマダ",
-      "pattern": "inverse_v",
-      "pattern_name_ja": "逆V字",
-      "win_rate": 81,
-      "direction": "sell",
-      "current_price": 2112.5,
-      "signal_price": 2386.0,
-      "pattern_detail": {
-        "start_date": "2026-09-09",
-        "end_date": "2026-10-27",
-        "key_points": [
-          {
-            "date": "2026-09-09",
-            "price": 2433.0,
-            "label": "rise_start"
-          },
-          {
-            "date": "2026-10-05",
-            "price": 2679.0,
-            "label": "peak"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 2386.0,
-            "label": "fall_end"
-          }
-        ]
-      },
-      "confidence": "medium",
-      "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3088.0
-        },
-        {
-          "date": "2026-06-26",
-          "close": 2965.0
-        },
-        {
-          "date": "2026-06-29",
-          "close": 2927.5
-        },
-        {
-          "date": "2026-06-30",
-          "close": 2951.5
-        },
-        {
-          "date": "2026-07-01",
-          "close": 3058.0
-        },
-        {
-          "date": "2026-07-02",
-          "close": 3026.0
-        },
-        {
-          "date": "2026-07-03",
-          "close": 3075.0
-        },
-        {
-          "date": "2026-07-06",
-          "close": 3200.0
-        },
-        {
-          "date": "2026-07-07",
-          "close": 3065.0
-        },
-        {
-          "date": "2026-07-08",
-          "close": 2949.5
-        },
-        {
-          "date": "2026-07-09",
-          "close": 2980.0
-        },
-        {
-          "date": "2026-07-10",
-          "close": 3013.0
-        },
-        {
-          "date": "2026-07-13",
-          "close": 2946.5
-        },
-        {
-          "date": "2026-07-14",
-          "close": 2866.0
-        },
-        {
-          "date": "2026-07-15",
-          "close": 2941.5
-        },
-        {
-          "date": "2026-07-16",
-          "close": 2866.5
-        },
-        {
-          "date": "2026-07-17",
-          "close": 2753.0
-        },
-        {
-          "date": "2026-07-21",
-          "close": 2849.0
-        },
-        {
-          "date": "2026-07-22",
-          "close": 2866.5
-        },
-        {
-          "date": "2026-07-23",
-          "close": 2909.5
-        },
-        {
-          "date": "2026-07-24",
-          "close": 2867.0
-        },
-        {
-          "date": "2026-07-27",
-          "close": 2936.0
-        },
-        {
-          "date": "2026-07-28",
-          "close": 2708.5
-        },
-        {
-          "date": "2026-07-29",
-          "close": 2628.0
-        },
-        {
-          "date": "2026-07-30",
-          "close": 2620.5
-        },
-        {
-          "date": "2026-07-31",
-          "close": 2787.0
-        },
-        {
-          "date": "2026-08-03",
-          "close": 2737.0
-        },
-        {
-          "date": "2026-08-04",
-          "close": 2833.0
-        },
-        {
-          "date": "2026-08-05",
-          "close": 2948.5
-        },
-        {
-          "date": "2026-08-06",
-          "close": 2939.5
-        },
-        {
-          "date": "2026-08-07",
-          "close": 2708.0
-        },
-        {
-          "date": "2026-08-10",
-          "close": 2765.0
-        },
-        {
-          "date": "2026-08-12",
-          "close": 2739.5
-        },
-        {
-          "date": "2026-08-13",
-          "close": 2770.0
-        },
-        {
-          "date": "2026-08-14",
-          "close": 2767.0
-        },
-        {
-          "date": "2026-08-17",
-          "close": 2832.5
-        },
-        {
-          "date": "2026-08-18",
-          "close": 2721.5
-        },
-        {
-          "date": "2026-08-19",
-          "close": 2551.0
-        },
-        {
-          "date": "2026-08-20",
-          "close": 2625.0
-        },
-        {
-          "date": "2026-08-21",
-          "close": 2602.5
-        },
-        {
-          "date": "2026-08-24",
-          "close": 2576.0
-        },
-        {
-          "date": "2026-08-25",
-          "close": 2586.0
-        },
-        {
-          "date": "2026-08-26",
-          "close": 2570.0
-        },
-        {
-          "date": "2026-08-27",
-          "close": 2595.0
-        },
-        {
-          "date": "2026-08-28",
-          "close": 2578.0
-        },
-        {
-          "date": "2026-08-31",
-          "close": 2587.5
-        },
-        {
-          "date": "2026-09-01",
-          "close": 2579.0
-        },
-        {
-          "date": "2026-09-02",
-          "close": 2453.5
-        },
-        {
-          "date": "2026-09-03",
-          "close": 2475.5
-        },
-        {
-          "date": "2026-09-04",
-          "close": 2508.5
-        },
-        {
-          "date": "2026-09-07",
-          "close": 2562.5
-        },
-        {
-          "date": "2026-09-08",
-          "close": 2397.0
-        },
-        {
-          "date": "2026-09-09",
-          "close": 2433.0
-        },
-        {
-          "date": "2026-09-10",
-          "close": 2378.5
-        },
-        {
-          "date": "2026-09-11",
-          "close": 2338.5
-        },
-        {
-          "date": "2026-09-14",
-          "close": 2314.0
-        },
-        {
-          "date": "2026-09-15",
-          "close": 2326.5
-        },
-        {
-          "date": "2026-09-16",
-          "close": 2400.5
-        },
-        {
-          "date": "2026-09-17",
-          "close": 2437.0
-        },
-        {
-          "date": "2026-09-18",
-          "close": 2412.5
-        },
-        {
-          "date": "2026-09-24",
-          "close": 2486.0
-        },
-        {
-          "date": "2026-09-25",
-          "close": 2504.0
-        },
-        {
-          "date": "2026-09-28",
-          "close": 2468.0
-        },
-        {
-          "date": "2026-09-29",
-          "close": 2493.0
-        },
-        {
-          "date": "2026-09-30",
-          "close": 2553.5
-        },
-        {
-          "date": "2026-10-01",
-          "close": 2622.0
-        },
-        {
-          "date": "2026-10-02",
-          "close": 2626.5
-        },
-        {
-          "date": "2026-10-05",
-          "close": 2679.0
-        },
-        {
-          "date": "2026-10-06",
-          "close": 2675.5
-        },
-        {
-          "date": "2026-10-07",
-          "close": 2648.5
-        },
-        {
-          "date": "2026-10-08",
-          "close": 2580.5
-        },
-        {
-          "date": "2026-10-09",
-          "close": 2579.0
-        },
-        {
-          "date": "2026-10-13",
-          "close": 2586.5
-        },
-        {
-          "date": "2026-10-14",
-          "close": 2618.5
-        },
-        {
-          "date": "2026-10-15",
-          "close": 2409.5
-        },
-        {
-          "date": "2026-10-16",
-          "close": 2472.0
-        },
-        {
-          "date": "2026-10-19",
-          "close": 2458.0
-        },
-        {
-          "date": "2026-10-20",
-          "close": 2391.0
-        },
-        {
-          "date": "2026-10-21",
-          "close": 2429.0
-        },
-        {
-          "date": "2026-10-22",
-          "close": 2364.0
-        },
-        {
-          "date": "2026-10-23",
-          "close": 2301.5
-        },
-        {
-          "date": "2026-10-26",
-          "close": 2322.0
-        },
-        {
-          "date": "2026-10-27",
-          "close": 2386.0
-        },
-        {
-          "date": "2026-10-28",
-          "close": 2472.0
-        },
-        {
-          "date": "2026-10-29",
-          "close": 2474.5
-        },
-        {
-          "date": "2026-10-30",
-          "close": 2408.0
-        },
-        {
-          "date": "2026-11-02",
-          "close": 2418.5
-        },
-        {
-          "date": "2026-11-04",
-          "close": 2351.5
-        },
-        {
-          "date": "2026-11-05",
-          "close": 2269.5
         },
         {
-          "date": "2026-11-06",
-          "close": 2112.5
+          "date": "2026-11-09",
+          "close": 1435.5
         }
       ]
     },
@@ -45294,7 +43289,7 @@
       "pattern_name_ja": "逆V字",
       "win_rate": 81,
       "direction": "sell",
-      "current_price": 40860.0,
+      "current_price": 42430.0,
       "signal_price": 52360.0,
       "pattern_detail": {
         "start_date": "2026-09-10",
@@ -45319,10 +43314,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 85970.0
-        },
         {
           "date": "2026-06-26",
           "close": 78510.0
@@ -45678,794 +43669,10 @@
         {
           "date": "2026-11-06",
           "close": 40860.0
-        }
-      ]
-    },
-    {
-      "ticker": "6302.T",
-      "name": "住友重機械工業",
-      "pattern": "inverse_v",
-      "pattern_name_ja": "逆V字",
-      "win_rate": 81,
-      "direction": "sell",
-      "current_price": 4690.0,
-      "signal_price": 5467.0,
-      "pattern_detail": {
-        "start_date": "2026-09-09",
-        "end_date": "2026-10-27",
-        "key_points": [
-          {
-            "date": "2026-09-09",
-            "price": 5700.0,
-            "label": "rise_start"
-          },
-          {
-            "date": "2026-10-05",
-            "price": 6310.0,
-            "label": "peak"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 5467.0,
-            "label": "fall_end"
-          }
-        ]
-      },
-      "confidence": "medium",
-      "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 5288.0
-        },
-        {
-          "date": "2026-06-26",
-          "close": 5144.0
-        },
-        {
-          "date": "2026-06-29",
-          "close": 5087.0
-        },
-        {
-          "date": "2026-06-30",
-          "close": 5058.0
-        },
-        {
-          "date": "2026-07-01",
-          "close": 5245.0
-        },
-        {
-          "date": "2026-07-02",
-          "close": 5250.0
-        },
-        {
-          "date": "2026-07-03",
-          "close": 5356.0
-        },
-        {
-          "date": "2026-07-06",
-          "close": 5477.0
-        },
-        {
-          "date": "2026-07-07",
-          "close": 5352.0
-        },
-        {
-          "date": "2026-07-08",
-          "close": 5183.0
-        },
-        {
-          "date": "2026-07-09",
-          "close": 5143.0
-        },
-        {
-          "date": "2026-07-10",
-          "close": 5284.0
-        },
-        {
-          "date": "2026-07-13",
-          "close": 5112.0
-        },
-        {
-          "date": "2026-07-14",
-          "close": 5130.0
-        },
-        {
-          "date": "2026-07-15",
-          "close": 5257.0
-        },
-        {
-          "date": "2026-07-16",
-          "close": 5249.0
-        },
-        {
-          "date": "2026-07-17",
-          "close": 5029.0
-        },
-        {
-          "date": "2026-07-21",
-          "close": 5081.0
-        },
-        {
-          "date": "2026-07-22",
-          "close": 5218.0
-        },
-        {
-          "date": "2026-07-23",
-          "close": 5354.0
-        },
-        {
-          "date": "2026-07-24",
-          "close": 5276.0
-        },
-        {
-          "date": "2026-07-27",
-          "close": 5419.0
-        },
-        {
-          "date": "2026-07-28",
-          "close": 5252.0
-        },
-        {
-          "date": "2026-07-29",
-          "close": 5138.0
-        },
-        {
-          "date": "2026-07-30",
-          "close": 5117.0
-        },
-        {
-          "date": "2026-07-31",
-          "close": 5238.0
-        },
-        {
-          "date": "2026-08-03",
-          "close": 5287.0
-        },
-        {
-          "date": "2026-08-04",
-          "close": 5720.0
-        },
-        {
-          "date": "2026-08-05",
-          "close": 5997.0
-        },
-        {
-          "date": "2026-08-06",
-          "close": 5901.0
-        },
-        {
-          "date": "2026-08-07",
-          "close": 5884.0
-        },
-        {
-          "date": "2026-08-10",
-          "close": 5931.0
-        },
-        {
-          "date": "2026-08-12",
-          "close": 5994.0
-        },
-        {
-          "date": "2026-08-13",
-          "close": 5991.0
-        },
-        {
-          "date": "2026-08-14",
-          "close": 5998.0
-        },
-        {
-          "date": "2026-08-17",
-          "close": 5933.0
-        },
-        {
-          "date": "2026-08-18",
-          "close": 5919.0
-        },
-        {
-          "date": "2026-08-19",
-          "close": 5447.0
-        },
-        {
-          "date": "2026-08-20",
-          "close": 5683.0
-        },
-        {
-          "date": "2026-08-21",
-          "close": 5615.0
-        },
-        {
-          "date": "2026-08-24",
-          "close": 5888.0
-        },
-        {
-          "date": "2026-08-25",
-          "close": 5852.0
-        },
-        {
-          "date": "2026-08-26",
-          "close": 5840.0
-        },
-        {
-          "date": "2026-08-27",
-          "close": 5815.0
-        },
-        {
-          "date": "2026-08-28",
-          "close": 5673.0
-        },
-        {
-          "date": "2026-08-31",
-          "close": 5761.0
-        },
-        {
-          "date": "2026-09-01",
-          "close": 5779.0
-        },
-        {
-          "date": "2026-09-02",
-          "close": 5499.0
-        },
-        {
-          "date": "2026-09-03",
-          "close": 5779.0
-        },
-        {
-          "date": "2026-09-04",
-          "close": 5830.0
-        },
-        {
-          "date": "2026-09-07",
-          "close": 5970.0
-        },
-        {
-          "date": "2026-09-08",
-          "close": 5587.0
-        },
-        {
-          "date": "2026-09-09",
-          "close": 5700.0
-        },
-        {
-          "date": "2026-09-10",
-          "close": 5611.0
-        },
-        {
-          "date": "2026-09-11",
-          "close": 5526.0
-        },
-        {
-          "date": "2026-09-14",
-          "close": 5564.0
-        },
-        {
-          "date": "2026-09-15",
-          "close": 5569.0
-        },
-        {
-          "date": "2026-09-16",
-          "close": 5709.0
-        },
-        {
-          "date": "2026-09-17",
-          "close": 5837.0
-        },
-        {
-          "date": "2026-09-18",
-          "close": 5978.0
-        },
-        {
-          "date": "2026-09-24",
-          "close": 5921.0
-        },
-        {
-          "date": "2026-09-25",
-          "close": 5957.0
-        },
-        {
-          "date": "2026-09-28",
-          "close": 5996.0
-        },
-        {
-          "date": "2026-09-29",
-          "close": 5923.0
-        },
-        {
-          "date": "2026-09-30",
-          "close": 5996.0
-        },
-        {
-          "date": "2026-10-01",
-          "close": 6106.0
-        },
-        {
-          "date": "2026-10-02",
-          "close": 6216.0
-        },
-        {
-          "date": "2026-10-05",
-          "close": 6310.0
-        },
-        {
-          "date": "2026-10-06",
-          "close": 6265.0
-        },
-        {
-          "date": "2026-10-07",
-          "close": 6224.0
-        },
-        {
-          "date": "2026-10-08",
-          "close": 5893.0
-        },
-        {
-          "date": "2026-10-09",
-          "close": 5837.0
-        },
-        {
-          "date": "2026-10-13",
-          "close": 6058.0
-        },
-        {
-          "date": "2026-10-14",
-          "close": 6025.0
-        },
-        {
-          "date": "2026-10-15",
-          "close": 5617.0
-        },
-        {
-          "date": "2026-10-16",
-          "close": 5712.0
-        },
-        {
-          "date": "2026-10-19",
-          "close": 5724.0
-        },
-        {
-          "date": "2026-10-20",
-          "close": 5566.0
-        },
-        {
-          "date": "2026-10-21",
-          "close": 5600.0
-        },
-        {
-          "date": "2026-10-22",
-          "close": 5409.0
-        },
-        {
-          "date": "2026-10-23",
-          "close": 5371.0
-        },
-        {
-          "date": "2026-10-26",
-          "close": 5424.0
-        },
-        {
-          "date": "2026-10-27",
-          "close": 5467.0
-        },
-        {
-          "date": "2026-10-28",
-          "close": 5529.0
-        },
-        {
-          "date": "2026-10-29",
-          "close": 5412.0
-        },
-        {
-          "date": "2026-10-30",
-          "close": 5276.0
-        },
-        {
-          "date": "2026-11-02",
-          "close": 5520.0
-        },
-        {
-          "date": "2026-11-04",
-          "close": 5368.0
-        },
-        {
-          "date": "2026-11-05",
-          "close": 5112.0
-        },
-        {
-          "date": "2026-11-06",
-          "close": 4690.0
-        }
-      ]
-    },
-    {
-      "ticker": "6479.T",
-      "name": "ミネベアミツミ",
-      "pattern": "inverse_v",
-      "pattern_name_ja": "逆V字",
-      "win_rate": 81,
-      "direction": "sell",
-      "current_price": 2715.0,
-      "signal_price": 3221.0,
-      "pattern_detail": {
-        "start_date": "2026-09-09",
-        "end_date": "2026-10-27",
-        "key_points": [
-          {
-            "date": "2026-09-09",
-            "price": 3377.0,
-            "label": "rise_start"
-          },
-          {
-            "date": "2026-10-05",
-            "price": 3918.0,
-            "label": "peak"
-          },
-          {
-            "date": "2026-10-27",
-            "price": 3221.0,
-            "label": "fall_end"
-          }
-        ]
-      },
-      "confidence": "medium",
-      "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 5246.0
-        },
-        {
-          "date": "2026-06-26",
-          "close": 4805.0
-        },
-        {
-          "date": "2026-06-29",
-          "close": 4771.0
-        },
-        {
-          "date": "2026-06-30",
-          "close": 4756.0
-        },
-        {
-          "date": "2026-07-01",
-          "close": 4998.0
-        },
-        {
-          "date": "2026-07-02",
-          "close": 4694.0
-        },
-        {
-          "date": "2026-07-03",
-          "close": 4848.0
-        },
-        {
-          "date": "2026-07-06",
-          "close": 4500.0
-        },
-        {
-          "date": "2026-07-07",
-          "close": 4372.0
-        },
-        {
-          "date": "2026-07-08",
-          "close": 4321.0
-        },
-        {
-          "date": "2026-07-09",
-          "close": 4370.0
-        },
-        {
-          "date": "2026-07-10",
-          "close": 4381.0
-        },
-        {
-          "date": "2026-07-13",
-          "close": 4166.0
-        },
-        {
-          "date": "2026-07-14",
-          "close": 4151.0
-        },
-        {
-          "date": "2026-07-15",
-          "close": 4185.0
-        },
-        {
-          "date": "2026-07-16",
-          "close": 4077.0
-        },
-        {
-          "date": "2026-07-17",
-          "close": 3821.0
-        },
-        {
-          "date": "2026-07-21",
-          "close": 3902.0
-        },
-        {
-          "date": "2026-07-22",
-          "close": 3950.0
-        },
-        {
-          "date": "2026-07-23",
-          "close": 3971.0
-        },
-        {
-          "date": "2026-07-24",
-          "close": 3879.0
-        },
-        {
-          "date": "2026-07-27",
-          "close": 3900.0
-        },
-        {
-          "date": "2026-07-28",
-          "close": 3668.0
-        },
-        {
-          "date": "2026-07-29",
-          "close": 3545.0
-        },
-        {
-          "date": "2026-07-30",
-          "close": 3512.0
-        },
-        {
-          "date": "2026-07-31",
-          "close": 3702.0
-        },
-        {
-          "date": "2026-08-03",
-          "close": 3765.0
-        },
-        {
-          "date": "2026-08-04",
-          "close": 3847.0
-        },
-        {
-          "date": "2026-08-05",
-          "close": 4096.0
-        },
-        {
-          "date": "2026-08-06",
-          "close": 3736.0
-        },
-        {
-          "date": "2026-08-07",
-          "close": 3694.0
-        },
-        {
-          "date": "2026-08-10",
-          "close": 3726.0
-        },
-        {
-          "date": "2026-08-12",
-          "close": 3753.0
-        },
-        {
-          "date": "2026-08-13",
-          "close": 3801.0
-        },
-        {
-          "date": "2026-08-14",
-          "close": 3770.0
-        },
-        {
-          "date": "2026-08-17",
-          "close": 3731.0
-        },
-        {
-          "date": "2026-08-18",
-          "close": 3614.0
-        },
-        {
-          "date": "2026-08-19",
-          "close": 3412.0
-        },
-        {
-          "date": "2026-08-20",
-          "close": 3417.0
-        },
-        {
-          "date": "2026-08-21",
-          "close": 3365.0
-        },
-        {
-          "date": "2026-08-24",
-          "close": 3344.0
-        },
-        {
-          "date": "2026-08-25",
-          "close": 3346.0
-        },
-        {
-          "date": "2026-08-26",
-          "close": 3356.0
-        },
-        {
-          "date": "2026-08-27",
-          "close": 3401.0
-        },
-        {
-          "date": "2026-08-28",
-          "close": 3401.0
-        },
-        {
-          "date": "2026-08-31",
-          "close": 3380.0
-        },
-        {
-          "date": "2026-09-01",
-          "close": 3410.0
-        },
-        {
-          "date": "2026-09-02",
-          "close": 3239.0
-        },
-        {
-          "date": "2026-09-03",
-          "close": 3234.0
-        },
-        {
-          "date": "2026-09-04",
-          "close": 3332.0
-        },
-        {
-          "date": "2026-09-07",
-          "close": 3468.0
-        },
-        {
-          "date": "2026-09-08",
-          "close": 3326.0
-        },
-        {
-          "date": "2026-09-09",
-          "close": 3377.0
-        },
-        {
-          "date": "2026-09-10",
-          "close": 3377.0
-        },
-        {
-          "date": "2026-09-11",
-          "close": 3391.0
-        },
-        {
-          "date": "2026-09-14",
-          "close": 3387.0
-        },
-        {
-          "date": "2026-09-15",
-          "close": 3419.0
-        },
-        {
-          "date": "2026-09-16",
-          "close": 3459.0
-        },
-        {
-          "date": "2026-09-17",
-          "close": 3445.0
-        },
-        {
-          "date": "2026-09-18",
-          "close": 3455.0
-        },
-        {
-          "date": "2026-09-24",
-          "close": 3606.0
-        },
-        {
-          "date": "2026-09-25",
-          "close": 3595.0
-        },
-        {
-          "date": "2026-09-28",
-          "close": 3537.0
-        },
-        {
-          "date": "2026-09-29",
-          "close": 3575.0
-        },
-        {
-          "date": "2026-09-30",
-          "close": 3748.0
-        },
-        {
-          "date": "2026-10-01",
-          "close": 3823.0
-        },
-        {
-          "date": "2026-10-02",
-          "close": 3835.0
-        },
-        {
-          "date": "2026-10-05",
-          "close": 3918.0
-        },
-        {
-          "date": "2026-10-06",
-          "close": 3915.0
-        },
-        {
-          "date": "2026-10-07",
-          "close": 3847.0
-        },
-        {
-          "date": "2026-10-08",
-          "close": 3680.0
-        },
-        {
-          "date": "2026-10-09",
-          "close": 3650.0
-        },
-        {
-          "date": "2026-10-13",
-          "close": 3587.0
-        },
-        {
-          "date": "2026-10-14",
-          "close": 3534.0
-        },
-        {
-          "date": "2026-10-15",
-          "close": 3252.0
-        },
-        {
-          "date": "2026-10-16",
-          "close": 3317.0
-        },
-        {
-          "date": "2026-10-19",
-          "close": 3317.0
-        },
-        {
-          "date": "2026-10-20",
-          "close": 3260.0
-        },
-        {
-          "date": "2026-10-21",
-          "close": 3284.0
-        },
-        {
-          "date": "2026-10-22",
-          "close": 3129.0
-        },
-        {
-          "date": "2026-10-23",
-          "close": 3120.0
-        },
-        {
-          "date": "2026-10-26",
-          "close": 3114.0
-        },
-        {
-          "date": "2026-10-27",
-          "close": 3221.0
-        },
-        {
-          "date": "2026-10-28",
-          "close": 3306.0
-        },
-        {
-          "date": "2026-10-29",
-          "close": 3268.0
-        },
-        {
-          "date": "2026-10-30",
-          "close": 3118.0
-        },
-        {
-          "date": "2026-11-02",
-          "close": 3145.0
-        },
-        {
-          "date": "2026-11-04",
-          "close": 3039.0
-        },
-        {
-          "date": "2026-11-05",
-          "close": 2906.5
         },
         {
-          "date": "2026-11-06",
-          "close": 2715.0
+          "date": "2026-11-09",
+          "close": 42430.0
         }
       ]
     },
@@ -46476,7 +43683,7 @@
       "pattern_name_ja": "逆V字",
       "win_rate": 81,
       "direction": "sell",
-      "current_price": 2107.0,
+      "current_price": 2112.0,
       "signal_price": 2790.5,
       "pattern_detail": {
         "start_date": "2026-09-10",
@@ -46501,10 +43708,6 @@
       },
       "confidence": "high",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3908.0
-        },
         {
           "date": "2026-06-26",
           "close": 3575.0
@@ -46860,6 +44063,10 @@
         {
           "date": "2026-11-06",
           "close": 2107.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2112.0
         }
       ]
     },
@@ -46870,7 +44077,7 @@
       "pattern_name_ja": "ディセンディングトライアングル",
       "win_rate": 75,
       "direction": "sell",
-      "current_price": 3874.0,
+      "current_price": 3920.0,
       "signal_price": 5000.5,
       "pattern_detail": {
         "start_date": "2026-07-30",
@@ -46905,10 +44112,6 @@
       },
       "confidence": "medium",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4424.0
-        },
         {
           "date": "2026-06-26",
           "close": 4363.0
@@ -47264,6 +44467,10 @@
         {
           "date": "2026-11-06",
           "close": 3874.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 3920.0
         }
       ]
     },
@@ -47274,7 +44481,7 @@
       "pattern_name_ja": "ディセンディングトライアングル",
       "win_rate": 75,
       "direction": "sell",
-      "current_price": 4620.0,
+      "current_price": 4780.0,
       "signal_price": 4801.8,
       "pattern_detail": {
         "start_date": "2026-07-28",
@@ -47309,10 +44516,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 4446.0
-        },
         {
           "date": "2026-06-26",
           "close": 4508.0
@@ -47668,6 +44871,10 @@
         {
           "date": "2026-11-06",
           "close": 4620.0
+        },
+        {
+          "date": "2026-11-09",
+          "close": 4780.0
         }
       ]
     },
@@ -47678,7 +44885,7 @@
       "pattern_name_ja": "下降ウェッジ",
       "win_rate": 72,
       "direction": "sell",
-      "current_price": 2112.5,
+      "current_price": 2173.0,
       "signal_price": 2199.5284661754863,
       "pattern_detail": {
         "start_date": "2026-07-31",
@@ -47713,10 +44920,6 @@
       },
       "confidence": "low",
       "ohlcv": [
-        {
-          "date": "2026-06-25",
-          "close": 3088.0
-        },
         {
           "date": "2026-06-26",
           "close": 2965.0
@@ -48072,6 +45275,10 @@
         {
           "date": "2026-11-06",
           "close": 2112.5
+        },
+        {
+          "date": "2026-11-09",
+          "close": 2173.0
         }
       ]
     }
@@ -48079,76 +45286,76 @@
   "backtest": {
     "per_pattern": {
       "inverse_head_shoulders": {
-        "count": 28,
+        "count": 25,
         "wins": 10,
-        "win_rate": 35.7,
-        "avg_return": -4.41
+        "win_rate": 40.0,
+        "avg_return": -3.7
       },
       "spike_bottom": {
-        "count": 19,
-        "wins": 9,
-        "win_rate": 47.4,
-        "avg_return": 1.18
+        "count": 13,
+        "wins": 6,
+        "win_rate": 46.2,
+        "avg_return": 1.05
       },
       "double_bottom": {
-        "count": 174,
-        "wins": 87,
-        "win_rate": 50.0,
-        "avg_return": -2.8
+        "count": 170,
+        "wins": 104,
+        "win_rate": 61.2,
+        "avg_return": -1.23
       },
       "ascending_pennant": {
-        "count": 134,
-        "wins": 116,
-        "win_rate": 86.6,
-        "avg_return": 4.25
+        "count": 121,
+        "wins": 112,
+        "win_rate": 92.6,
+        "avg_return": 4.23
       },
       "cup_with_handle": {
-        "count": 83,
-        "wins": 60,
-        "win_rate": 72.3,
-        "avg_return": 4.07
+        "count": 67,
+        "wins": 50,
+        "win_rate": 74.6,
+        "avg_return": 4.39
       },
       "rising_wedge": {
-        "count": 50,
-        "wins": 29,
-        "win_rate": 58.0,
-        "avg_return": 8.34
+        "count": 43,
+        "wins": 28,
+        "win_rate": 65.1,
+        "avg_return": 9.59
       },
       "head_shoulders": {
-        "count": 139,
-        "wins": 78,
-        "win_rate": 56.1,
-        "avg_return": 3.47
+        "count": 99,
+        "wins": 61,
+        "win_rate": 61.6,
+        "avg_return": 3.39
       },
       "double_top": {
-        "count": 363,
-        "wins": 244,
-        "win_rate": 67.2,
-        "avg_return": 5.16
+        "count": 299,
+        "wins": 218,
+        "win_rate": 72.9,
+        "avg_return": 4.15
       },
       "spike_top": {
-        "count": 15,
+        "count": 12,
         "wins": 9,
-        "win_rate": 60.0,
-        "avg_return": 5.68
+        "win_rate": 75.0,
+        "avg_return": 7.24
       },
       "triple_top": {
-        "count": 13,
-        "wins": 3,
-        "win_rate": 23.1,
-        "avg_return": 5.14
+        "count": 9,
+        "wins": 0,
+        "win_rate": 0.0,
+        "avg_return": -5.59
       },
       "descending_triangle": {
-        "count": 86,
-        "wins": 39,
-        "win_rate": 45.3,
-        "avg_return": 1.01
+        "count": 73,
+        "wins": 36,
+        "win_rate": 49.3,
+        "avg_return": -0.36
       },
       "falling_wedge": {
-        "count": 17,
-        "wins": 17,
+        "count": 14,
+        "wins": 14,
         "win_rate": 100.0,
-        "avg_return": 19.2
+        "avg_return": 14.32
       },
       "inverse_v": {
         "count": 2,
@@ -48163,8 +45370,8 @@
         "avg_return": 4.98
       }
     },
-    "overall_win_rate": 63.2,
-    "total_verified": 1141,
+    "overall_win_rate": 69.2,
+    "total_verified": 965,
     "hold_days": 10
   }
 }
